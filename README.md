@@ -1,2 +1,2 @@
-# odoo-certification-preparation
-Preparation in Odoo Certification
+# Odoo Certification Preparation
+Preparation for Odoo Certification
