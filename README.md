@@ -1,19 +1,37 @@
-# Odoo Certification Preparation
-Preparation for Odoo Certification
+<div align="center">
+    <img src="img/logo.png" height="320" width="830" alt="Tech Stacks">
+    <h>Odoo Certification Preparation</h1>
+    <strong> Preparation for Odoo Certification</strong>
+</div>
+
+- [1. Introduction](#1-introduction)
+- [2. CRM](#2-crm)
+- [3. Inventory](#3-inventory)
+- [4. MRP](#4-mrp)
+- [5. Website \& E-Commerce](#5-website--e-commerce)
+- [6. Human Resources](#6-human-resources)
+- [7. Timesheets](#7-timesheets)
+- [8. Projects](#8-projects)
+- [9. Purchase](#9-purchase)
+- [10. Accounting](#10-accounting)
+- [11. Sale](#11-sale)
+- [12. Survey](#12-survey)
+- [13. Helpdesk](#13-helpdesk)
+- [14. Event](#14-event)
+- [15. Odoo Studio](#15-odoo-studio)
+- [References](#references)
 
 
 
 
-# Section
+# 1. Introduction
 
-## Introduction
-
-**Question 1**: When Printing a quote, how does Odoo determine which language to use?  
+**Question 1**: When Printing a quote, how does Odoo determine which language to use? 
 a. Use the language defined in the current user's preferences  
 b. Use the language defined on the customer record  
 c. Use the language defined by the company of the users
 
-**Explanation**: In customer, there is a field named language which will effected when printing a customer order, by default this language will select for printing. So the answer is b.
+> **Explanation**: In customer, there is a field named language which will effected when printing a customer order, by default this language will select for printing. So the answer is b.
 
 **Question 2**: In a multi-company environment, how do you ensure whether or not the customer is visible for all companies?  
 a. This is not possible since every customer belongs to one company  
@@ -21,7 +39,7 @@ b. Leave the Company field empty
 c. Check the box "Accessible for Everyone"  
 d. I don't know  
 
-**Explanation**: In customer record, there is a field named company in Sale and Purchase tab, if you keep this empty for a customer then it will show for all company, and if you select a specific company then this customer will show in that country. So the answer is b.
+ > **Explanation**: In customer record, there is a field named company in Sale and Purchase tab, if you keep this empty for a customer then it will show for all company, and if you select a specific company then this customer will show in that country. So the answer is b.
 
 **Question 3**: If you were on any list, view, how would you display 1000 records at once?  
 a. All records are always displayed  
@@ -135,3 +153,25 @@ b. Anyone who has access to the application from which it originates
 c. Anyone who has access to the workspace the spreadsheet is in
 
 **Explanation**: So the option will be 3.
+
+
+# 2. CRM
+
+# 3. Inventory
+# 4. MRP
+# 5. Website & E-Commerce
+# 6. Human Resources
+
+# 7. Timesheets
+# 8. Projects
+# 9. Purchase
+# 10. Accounting
+# 11. Sale
+# 12. Survey
+# 13. Helpdesk
+# 14. Event
+
+# 15. Odoo Studio
+
+# References
+- 
