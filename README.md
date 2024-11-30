@@ -353,6 +353,143 @@ c. Anyone who has access to the workspace the spreadsheet is in
 > **Explanation**: Can be configured with enough access permission. So option a is correct
 
 # 3. Inventory
+
+Question 1: How many stock moves happen when you validate an inventory adjustment?
+
+1. One stock move for the whole inventory
+2. One stock move per adjustment line with an undated quantity
+3. One stock move per product included the inventory
+4. One stock move per location used in the inventory
+5. I don't know
+
+> Explanation: It will add a stock move record with an updated value in system, so 1 stock move will count. So option 2 is correct.
+
+Question 2: Where can you define the costing method?
+
+1. On the product
+2. On the product category
+3. On the company (all products have the same costing method)
+4. I don't know
+
+> Explanation: Costing method are define in Product Category. So option 2 is correct.
+
+Question 3: Can you define several reordering rules for the same product?
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: Several reordering rules is not apply for same products. So option 2 is correct.
+
+Question 4: According to the below screenshot, how many variants will be generated for this product?
+
+1. 23 variants
+2.  No variant will  be generated, as no stock yet added for the item
+3. 192 variants, assuming all attributes Variants Creation Model is instantly
+
+> Explanation: Variant will be multiplied, so if you have 4 attribute and 3 attribute has 4 variant and 1 attribute has 3 variant then their multiplication will be 192. So option 3 is correct.
+
+Question 5: When you have multiple variants available for the product, how can you get the option on the above screenshot on the purchase order?
+
+1. It's automatically available for the attributes with Dynamically creation mode.
+2. It's automatically available for the attributes with Instantly creation mode
+3. By Activating the Variant Grid Entry on Purchase Setting
+
+> Explanation: There is option available in Sale and Purchase where you can set "Activating the Variant Grid Entry". So option 3 is correct.
+
+Question 6: Is it possible to purchase a Product using different Unit of Measurement?
+
+1. No, each product will have a single Unit of Measure per company
+2. Yes, any product can be purchased with any Unit of Measure
+3. Yes, but only if it is in the same UOM category
+
+> Explanation: Yes, you can change the UOM only within the same category. So option 3 is correct.
+
+Question 7: Assuming this Product Category configuration, if you increase the stock level on one of its products that has cost on its form, what is the journal entry generated?
+
+1. Debit, Stock Valuation Account, Credit: Stock Input Account
+2. Debit: Stock Output Account, Credit: Stock Valuation Account
+3. Debit: Stock Input Account, Credit: Stock Valuation Account
+
+> Explanation: So option 1 is correct.
+
+Question 8: If the product (Wood Polish) has an expiration date, how can you control it in the stock?
+
+1. By define a Tracking option on the product and set the Expiration Time, Odoo will count the time based on the current date and it could be changed then stored.
+2.  By adding the Expiration Date on the stored units from On Hand quantitties
+3. By define a Tracking option on the product and set the Expiration Time, Odoo will count the time based on the current date only then store it.
+
+> Explanation: User can set Expiration Time from individual product and set the expiration duration, and it will effect on product receiving when purchase a product. So option 1 is correct.
+
+Question 9: Can you allocate the Landed Cost based on the Product Weight?
+1. No, it could be allocated only equally or by cost
+2.  Yes, be select the option and add the weight on the weight field on the Landed Cost line
+3. Yes, by selecting the option on the Landed Cost line, and define the product weight on the inventory tab on the Product form
+
+> Explanation: Yes, user can allocate landed cost depending on product weight, so option 3 is correct.
+
+Question 10: If you confirmed a Sales Order with a Product, will it affect the Forecasted quantity of this product?
+
+1. yes, once the Sale is confirmed
+2.  Yes, but only if the quantity is Reserved from the stock
+3. No, the Forecasted quantity will be updated only when the ordered quantity is moved the stock
+
+> Explanation: yes, it will affect the forecasted quantity when confirm a order. So 2 is correct
+
+Question 11: Which of the below transactions will not affect the Product Forecasted quantity?
+
+1. Confirming a Sales Order with enough quantity on Hand
+2. Confirming a Purchase for this product
+3. Validating a delivery fro a confirmed Sales Order for this product
+
+> Explanation: Forecasted quantity will affect when confirm a sales order or purchase order but it not affected by validating a sales order or purchase order, So option 3 is correct. 
+
+Question 12: What does it mean if the forecasted quantity of a storable  product is less than a quantity on Hand?
+
+1. Nothing as we don't know the complete history of each product
+2. New products are planned to arrive in stock
+3. There are probably more outgoing products planned than incoming products
+
+> Explanation: If Quantity on Hand is bigger then Forecasted Quantity then some sale order already confirmed but Quantity on Hand is smaller than Forecasted Quantity then purchased order already confirmed. So option 3 is correct.
+
+Question 13: You have a customer interested in a product of yours that has a supplier deliver lead time that is less than your customer delivery lead time. This is a product that you do not sell often because it is rather expensive. With that in mind, what is the best procurement method for you to manage this product effectively.
+
+1. Use the Master Production Schedule tool
+2. You should configure this product as a consumable type
+3. You should set this product route to "Make to Order"
+
+> Explanation: User should make this product Make to Order. So option 3 is correct.
+
+Question 14: When should you use "Consumable" as a product type?
+1. When managing inventory is not necessary
+2. When managing inventory is necessary
+3. When selling services
+
+> Explanation: When product don't need to manage stock. So option 2 is correct.
+
+Question 15: What is the "Customer lead time" field used for on the product form?
+1. It computes the order date based on the quotation date
+2. It computes the delivery order date when the quotation is confirmed
+3. It is displayed in the Terms & Conditions of the quotations
+
+> Explanation: Customer Lead Time used in product configuration for quotation order date setting. So option 2 is correct.
+
+Question 16: Can you define several reordering rules for the same product?
+
+1. Yes
+3. No
+
+> Explanation: Odoo will check automatically check multiple reordering rules for same product.
+
+Question 17: In a normal situation, the "Customer" location has a positive stock level or a Negative stock level?
+
+1. Negative stock level
+2. Positive stock level
+3. Should tend to zero
+
+> Explanation: As customer only purchase product so they should have always positive amount. So option 2 is correct.
+
+
 # 4. MRP
 # 5. Website & E-Commerce
 # 6. Human Resources
