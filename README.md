@@ -477,7 +477,7 @@ Question 15: What is the "Customer lead time" field used for on the product form
 Question 16: Can you define several reordering rules for the same product?
 
 1. Yes
-3. No
+2. No
 
 > Explanation: Odoo will check automatically check multiple reordering rules for same product.
 
@@ -489,6 +489,192 @@ Question 17: In a normal situation, the "Customer" location has a positive stock
 
 > Explanation: As customer only purchase product so they should have always positive amount. So option 2 is correct.
 
+Question 18: You have 14 units on hand of the products below. If you run the following reordering rule how many units will be ordered?
+
+1. 0
+2. 40
+3. 48
+4. 56
+
+> Explanation: Correct option is 2.
+
+Question 19: If not specifically defined, stock moves are always managed in FIFO?
+
+1. Yes
+2. No
+
+> Explanation: Stock removal strategy set on location, from Inventory. Depending on removal strategy product are removed from stock. By default removal strategy is FIFO. So option 1 is correct.
+
+
+Question 20: When buying a product, when is the quantity on hand of that product increased?
+
+1. When the purchase order is validated
+2. When the receipt is validated
+3. When the vendor bill is posted
+
+> Explanation: When you buy product it will create a receipt after validating a purchase order and it updates Forecast Quantity and if you validate the receipt then it will update On-Hand Quantity. So option 2 is correct.
+
+Question 21: Is it possible to make conversion between two units of measure from different categories?
+
+1. Yes
+2. No
+
+> Explanation: Not actually, basic rules is you can't convert values for two different categories. So option 2 is correct.
+
+Question 22: You have 14 units on hand of the products below. If you run the following reordering rule how many units will be manufactured?
+
+1. 0
+2. 40
+3. 48
+4. 50
+
+> Explanation: As manufacturing depends on Routes and there is not routes set on here, so nothing will create. So option 1 is correct.
+
+Question 23: When performing an inventory adjustment, if you want to apply the counted quantity for several inventory lines at the same time, what will be created?
+
+1. One stock move for the whole inventory adjustment
+2. One stock move per adjustment line with an updated quantity
+3. One stock move per product included in the adjustment
+
+> Explanation: For every updated quantity it will create an individual stock move. So option 2 is correct.
+
+Question 24: You have a product with a reordering rule of min 5, max 10, to be triggered manually. How can you launch this rule?
+
+1. By clicking on replenish in the product view
+2. By clicking on Run Scheduler from the inventory operation menu
+3. By clicking order once on the replenishment report
+4. All answer are correct
+
+> Explanation: As manual replenishment can done using several ways so all answer is correct. So option 4 is correct.
+
+Question 25: In Odoo is it possible that a company using locations has two products with the same serial number?
+
+1. Yes
+2.  No
+
+> Explanation: Odoo has composite unique key with serial no and product, so same product with same serial no is not possible but different product with same serial no is possible in odoo. So option 1 is correct.
+
+Question 26: Regarding inventory adjustment, which of these propositions is FALSE?
+
+1. A transfer with 0 quantity is created when on hand and counted quantity are the same
+2. You can set the frequency of counts on product categories
+3. The barcode app displays all the counts assigned to you, with a date earlier or equal to today's date
+4. None of above is correct
+
+> Explanation: Option 2 is correct.
+
+Question 27: Where can you set up stock valuation accounts?
+
+1. On the product category level and on certain types of locations
+2. Only on the product level
+3. On the product and product category level
+4. Only on the stock locations
+
+> Explanation: User can set stock valuation accounts in Product Category with automated feature and Location where location_type either Inventory loss or production. So option 1 is correct.
+
+
+Question 28: you have 20 units of a table in stock. 10 of those units belongs to you, and the others 10 belong to their owner, Azure interior. What is your inventory value for those tables if they cost you $500 units?
+
+1. 5000
+2. 10000
+3. 500
+
+> Explanation: 5000, so option 1 is correct.
+
+
+Question 29: User have Woodshield as a product that you track by lot, in order to follow expiration dates. Its removal strategy is set to FIFO. You have 40 units in stock, divided into the 4 following lot numbers (10 units of each). If you have to deliver 15 units, which lot number will be automatically reserved by Odoo?
+
+1. 10 units of LOT-001 & 5 units of LOT-002
+2. 10 units of LOT-003 & 5 units of LOT-002
+3. 10 units of LOT-003 & 5 units of LOT-004
+
+> Explanation: As in FIFO strategy Oldest one will remove first. So option 2 is correct
+
+Question 30: With which costing method can the landed costs be used?
+
+1. AVCO
+2. FIFO
+3. Both FIFO and AVCO
+
+> Explanation: Product Category must contain costing method either AVCO or FIFO. So option 2 is correct.
+
+Question 31: Regarding this forecast report, assuming none of these sales orders have priority, what will happen if you set your priority on S00113.
+
+1. The most recent sales order will be unreserved, and S00113 will move to the list
+2. All reserved deliveries will be unreserved, and 10 units will be reserved for S00113
+3. Nothing will happen until reserved quantities are unreserved manually
+
+> Explanation: Nothing will happen until reserved quantities are manually unreserved. So option 3 is correct.
+
+Question 32: I want to move all items that should be picked in WH/stock/shelf1 for internal transfer. What should I do?
+
+1. A batch picking
+2. A cluster picking
+3. A Wave picking
+
+> Explanation: A batch picking is used for batch transfer. So option 1 is correct.
+
+Question 33: What happens when you validate a delivery order for a customer?
+
+1. It decrements your available stock for this product, but not in any other location
+2. It decrements your available stock for this product and increments a customer location.
+3. It decrements your stock on hand for this product and increments a customer location
+
+> Explanation: When validate a delivery order it decrements On-hand quantity and increments customer location quantity. So option 3 is correct.
+
+Question 34: When you manually update the quantity on hand of a product via the "Update Quantity" button on the product form view, does it generate a stock move?
+
+1. Yes
+2. No
+
+> Explanation: Yes it creates a stock move. So option 1 is correct.
+
+Question 35: Your warehouse is configures to deliver in 3 steps (pick-pack-ship). You have to pick 10 chairs and 5 desks in first step, but you accidentally picked 15 chairs and 2 desks. What will be the result in the pack operation?
+
+1. 15 chars, 2 desks
+2. 10 chairs and 5 desk (if no backorder is selected when confirming the picking)
+3. 10 chairs, 2 desks
+4. 15 chairs, 5 desks
+
+> Explanation: Option 3 is correct.
+
+Question 36: I can't set the capacity on a location by
+
+1. Product
+2. Package type 
+3. Volume
+4. Weight
+
+> Explanation: So option 3 is correct.
+
+Question 37: When inventory move will be created when you do an inventory adjustment to a product from 5 units to 4 units?
+
+1. A move of 4 units from an internal location to an inventory loss location
+2. A move of 1 unit from an internal location to an inventory loss location
+3. A move of a unit from an inventory loss location to an internal location
+4. A move of 4 units from an inventory loss location to an internal location
+
+> Explanation: It create a move which move 1 counted quantity from stock location to inventory adjustment location. So option 2 is correct.
+
+Question 38: You have 20 Drawer Desk on hand, which are configured to be purchased when a client places the order (MTO). If you were to sell 50 units to a customer, how many units will be set on the automatically generated RFQ?
+
+1. 20 units
+2. 30 units
+3. None of the previous answer
+
+> Explanation: Check Again. So option 3 is correct.
+
+Question 39: I have 5 units of a product in my warehouse, but those 5 units need to be delivered in 6 months. I've just confirmed a sales order for 3 units but can't deliver it now since everything is reserved. Which of these propositions can avoid this situation? 
+A. Star the picking of 3 units 
+B. Don't set the reservation method to "At Confirmation"
+C. Unreserve picking of 5, star picking 3
+
+1. A & B
+2. A & C
+3. B & C
+4. A, B & C
+
+> Explanation: As Delivery picking is set At Confirmation just remove it first then Unreserve the picking. So option 3 is correct.
 
 # 4. MRP
 # 5. Website & E-Commerce
