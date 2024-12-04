@@ -677,6 +677,203 @@ C. Unreserve picking of 5, star picking 3
 > Explanation: As Delivery picking is set At Confirmation just remove it first then Unreserve the picking. So option 3 is correct.
 
 # 4. MRP
+Question 1: Can I continue a manufacturing operation without having to validate a quality check if one is requested?
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: As we can bias the quality check without proper configuration in odoo 17 so, answer may conflict. So option 1/2 both will be correct.
+
+Question 2: Can you define several bill of materials for the same product?
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: We can have multiple BOM for same product, so we can manufacture various types of product. So option 1 is correct.
+
+Question 3: Is it possible to create a routing operation without a work center? 
+
+1. Yes
+2. No	
+3. I don't know
+
+> Explanation: As routing operation depends on bill of material and work centre so you can't create it without routing operation. So option 2 is correct.
+
+Question 4: Can you define several bill of materials for the same product?
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: We can have multiple BOM for same product, so we can manufacture various types of product. So option 1 is correct.
+
+Question 5: The company (Wood Art) is manufacturing a product (Office Desk), this product consumes wood layers and after it's production, it produces also a (Sawdust), which is sold later to another customer. What option you could use to record this produced (Sawdust)?
+
+1. It will be added manually after the close of the Manufacturing Order
+2. It will be defined as a By-Product on the Bill of Material and it will be added automatically with the related Work Order.
+
+> Explanation: First enable by-product features from settings, and after selection configure By-product from Bill of Material and it will create by product from after finish a product in Manufacturing order. So option 2 is correct.
+
+Question 6: If you have a Bill of Material for the product (Desk K12), and you use the Work Center (Assembly Station 1) with this setting in its operation. Assuming no other Work Orders on the Assembly Work Center, what will happen when you confirm MO with 10 units?*
+
+1. Two Work Order will be  created on this Work Center
+2. The Expected Duration for the Work Order on this Work Center will be multiplied
+3. The Manufacturing Order will not be Planned 
+
+> Explanation: As the operation depends on Work Center capacity and in current work center has only 8 capacity. So option 2 is correct.
+
+Question 7: What is the effect of this defined time on the Work Center?
+
+1. Any Operation on this Work Center will have an extra 30 minutes added to its Expected Duration.
+2. The Operation on this Work Center will have an extra 19 minutes added to its Expected Duration.
+3. The Operation on this Work Center will have an extra 10 minutes added to its Expected Duration, and the next Operation on the MO will have an extra 20 minutes added to its Expected Duration.
+
+> Explanation: As every work center has startup time and cleanup time so extra time will be startup time + cleanup time. So option 1 is correct.
+
+Question 8: Can you change the Quantity to Produce after the Manufacturing Order is confirmed?
+
+1. No, one confirmed, the MO Quantity can't be changed
+2. Yes, by click on the number on the field update the (Quantity to Produce), and Approve
+3. Only before the MO is planned, the use can update the quantity
+
+> Explanation: Yes user can change the quantity of the MO after confirm. So option 2 is correct.
+
+Question 9: What is the (CHECK AVAILABILITY) button on the Manufacturing Order will do?
+
+1. It will check the Availability of the Work Centers
+2. It will Reserve the Components from the Stock
+
+> Explanation: Check Availability button reserve the component amount from stock. So option 2 is correct.
+
+Question 10: How can you scrap a broken component during the manufacturing process?
+
+1. From the Scrap option on the Manufacturing Order
+2. From the Scrap option on the Work Order
+3. From the Strap option on the Manufacturing Order or the Work Order
+
+> Explanation: As Scrap option available in both Manufacturing Order and Work Order, so option 3 is correct.
+
+Question 11: When is the MO status is changed to (TO CLOSE)?
+
+1. Only when the Components are consumed
+2. Only when the Components are consumed and all Operations are Finished
+3. Only when the Quantity Produced is equal to the Quantity to Produce
+
+> Explanation: Only when the component are consumed and all operation are finished. So option 2 is correct.
+
+Question 12: If you produce a product which its Bill of Material has a By-Product, when is the By-Product will be produced?
+
+1. When the Manufacturing Order is Marked as Done
+2. Always after the first Work Order is finished
+3. After the first Work Order is finished, unless the Operation for the By-Product is configured on BOM, then it will be produced when this operation is Finished
+
+
+> Explanation: When manufacturing is done then By-Product will generate. So option 1 is correct.
+
+Question 13: If you consumed components more than planned in BOM, is this extra component cost will be added to the finished product cost?
+
+1. Yes, the extra consumption will be added to the finished product cost, and will appear on the MO Cost Analysis
+2. No, the extra consumption will be considered as an adjustment loss, but will appear on the MO Cost Analysis
+
+> Explanation: Option 1 is correct.
+
+
+Question 14: If you have this BOM for the product (Modern Desk). The components cost per unit is $10 for Wood Layer, $70 for Metal Leg, and $120 for Woodshield, and the cost per hour for the Work Centers is $30 for Wood Station, $25 for Assembly Station 1, and $45 for Painting Station. Assuming Automated Inventory Valuation, if you produced 1 unit of Modern Desk with the exact material consumption, and the Real Duration as Expected, what is the cost of this finished unit?*
+
+1. 300
+2. 200
+3. 260
+
+> Explanation: So equation is (10*3+70*1+120*.5)‎ = 160, (30+25+45)‎ = 100, sum is 160+100‎ = 260. So option 3 is correct.
+
+Question 15: What will happen when you confirm a Sales Order with a product that has a BOM Type "Kit"?
+
+1. A Delivery Order will be created with the components of this BOM
+2. A Manufacturing Order will be created to produce this product
+3. A Manufacturing Order will be created to product this product, and a Purchase Order will be created to purchase the components of its BOM
+
+> Explanation: It will create a delivery order with BOM component when try to create a sales order. So option 1 is correct.
+
+Question 16: Can you use a Bill of Material with type "Kit" on the Manufacturing Order?
+
+1. Yes
+2. No
+
+> Explanation: No, Kit type is not used in Manufacturing Order. So option 2 is correct.
+
+
+Question 17: What is the (Indirect Demand Forecast) for the Master Desk?*
+
+1. The demand coming from a validated a validated Sales Order with this Product
+2. The demand coming from a validated Manufacturing Order for a product where the Master Desk is one of its components
+3. The demand needed to fulfill the Forecasted Schedule where the Master Desk is one of its components.
+
+> Explanation: Option 3 is correct.
+
+
+Question 18: Can you use the Engineering Change Order to update the manufactured product configurations?
+
+1. No, the ECO is used to update the BOM only
+2. Yes, ECO is used either to update the Product or its BOM
+
+> Explanation: First install PLM apps. ECO can be used to update Product and its related BOM. So option 2 is correct.
+
+Question 19: Can you apply approvals on the ECO document?
+
+1. Yes, manually add the user and approval type on the ECO Type
+2. Yes, manually add the user and approval type on the ECO Stage
+3. Yes, manually add the user and approval type on the ECO Document
+
+> Explanation: Yes, it can be manually add user approval in ECO Stage. So option 2 is correct.
+
+Question 20: Once a manufacturing order is validated can you produce more than initially expected?
+
+1. Yes
+2. No
+
+> Explanation: Yes, you can add more amount initially expected. So option 1 is correct.
+
+Question 21: What is the purpose of Engineering Change Order?
+
+1. Create customized products based on SOS
+2. Manage BOM Versions
+3. Modify a manufacturing order
+
+> Explanation: ECO is used to modify Product Configuration and BOM with certain level of approvals. So option 2 is correct.
+
+Question 22: How is the Mean Time to Repair (MTTR) calculated?
+
+1. Total downtime (in days)/ number of breakdowns
+2. Total uptime (in days)/number of breakdowns
+3. Total time (in days)/number of breakdowns
+
+> Explanation: Total Downtime (in days)/Number of Breakdowns. So option 1 is correct.
+
+Question 23: What type of quality check should I perform if during the same operation, various lots of the same product have to be tested separately?
+
+1. Operation quality check
+2. Product type quality check
+3. Quantity type quality check
+
+> Explanation: 
+
+Question 24: How can you configure Odoo to automate the creation of preventive maintenance requests?
+
+1. Setup preventive maintenance frequency on the equipment (machine tools)
+2. Setup preventive maintenance frequency on the work center
+3. Create a meeting type "MRP maintenance" and setup recurring meetings
+
+> Explanation: 
+
+Question 25: In an OEE calculation, whats included in the fully productive time?
+
+1. The recorded working time that does not exceed the expected working time
+2. All recorded time on a work order, until it is marked as done
+3. All time recorded on the work order during the working schedule of the work center
+
+> Explanation: 
 # 5. Website & E-Commerce
 # 6. Human Resources
 
