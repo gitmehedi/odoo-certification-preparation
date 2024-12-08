@@ -881,6 +881,368 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 # 8. Projects
 # 9. Purchase
 # 10. Accounting
+
+Question 1: Will Odoo allow to create an invoice (with a tax) in a closed tax period?
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: User can find Lock Dates in Accounting -> Actions -> Lock Dates, and user can set Tax Return Lock Date in here. So option 1 is correct.
+
+Question 2: How is the total due by a customer computed?
+
+1. The sum of all unpaid invoices from this customer
+2. The balance related to this customer in receivable accounts
+3. The sum of invoices minus the sum of payments of this customer
+
+> Explanation: Customer balance may  calculate in different places like invoices, credit notes, and journal entry. So customer balance calculated in receivable account. So option 2 is correct.
+
+Question 3: How many journal items will be create for a customer invoice having 2 lines, and the same 15% tax on each line?
+
+1. 2 journal items
+2. 3 journal items
+3. 4 journal items
+4. 5 journal items
+5. I don't know
+
+> Explanation: As for every product sales it will create individual sales line and for tax it will create another line and there is a payable account for all summation. So 4 journal items will be applied. So option 3 is correct.
+
+Question 4: How can you add a Hierarchy for a accounts on the financial reports?
+
+1. By configuring the Group of each account in the Chart of Accounts
+2. By using the comparison tools on the reports
+3. The Hierarchy is available by default based on the Account Type Hierarchy
+
+> Explanation: By configuring group of each account in the Chart of Account, so option 1 is correct.
+
+Question 5: How can you add an Account Group for the Accounts?
+
+1. Manually select the Group on each account
+2. If the account Code is within a Group Prefix it will populate automatically
+3. The group is auto-added based on the company localization
+
+> Explanation: Option 2 is correct.
+
+Question 6: When you set the (Outstanding Receipts/Payment Account) on a Bank/Cash journal, should it be configured as Allow (Reconciliation)?
+
+1. No, it will be reconciled any way
+2. Yes, so the user will be able to reconcile the Receipt and Payments on the statement
+
+> Explanation: Option 2 is correct.
+
+Question 7: If you want to sell to a client another currency, how you can define the Exchange Rate?
+
+1. The currency will be added to the system first, then the exchange rate will be added on the currency form
+2. The currency will be added to the system first, then the exchange rate will be added on the invoice form
+3. Multi-currencies option should be activated first, the the exchange rate could be added manually to the current form or generate automatically from the setting
+
+> Explanation: User can set exchange rate from currency option. So option 3 is correct.
+
+Question 8: What is the purpose of the (Not Depreciable Value) on the Asset?
+
+1. It acts as the estimated Salvage Value for the asset, and it will be include in the depreciation schedule
+2. It is the extra cost could be spent on the asset life.
+
+> Explanation:  Option 2 is correct.
+
+Question 9: Based on this configuration, what is the value of the first Depreciation that will be computed?*
+
+1. 77.41
+2. 77.99
+3. 200
+
+> Explanation: Option 1 is correct.
+
+Question 10: Based on this configuration, what is the journal entry generated for the depreciation lines? *
+
+1. Debit: Expense Account, Credit: Fixed Account
+2. Debit: Expense Account, Credit: Depreciation Account
+3. Debit: Depreciation Account, Credit: Fixed Asset Account
+
+> Explanation: Depreciation journal will be Depreciation will be credited and Expense will be debited. So option 2 is correct.
+
+Question 11: If you have a Computer in your assets and you want to add extra RAM to it, how should you do this action?
+
+1. Be creating a new Asset, and define its parent asset as the Computer
+2. Through Modify Depreciation, be define the Reason as new RAM, and add its extra cost to the Depreciation Amount
+
+> Explanation: Option 2 is correct.
+
+Question 12: If you have an asset that will not be used currently, and it will return to service after a while. What option you may use to do this action?
+
+1. Archive the asset when it's out or service, the Unarchive it when it is used again
+2. Use the (Pause Depreciation) option to set the asset on Hold, then Resume Depreciation when it's back to service
+4. Reset the Asset to Draft when it's out or service, then Confirm it back when it is used again
+
+> Explanation: Select Asset pause option. Option 2 is correct.
+
+Question 13: Can you add an asset using the Declining Depreciation method?
+
+1. No
+2. Yes
+
+> Explanation: User can add asset using Declining Depreciation Method. So option 2 is correct.
+
+Question 14: What is the purpose of the Fiscal Position on the customer form?
+
+1. If defined on a customer, you can apply another Tax mapping and Income account for this customer invoices
+2. To define the customer Credit Limit
+
+> Explanation: 
+
+Question 15: Based on this approved budget, the Theoretical amount of $97,808.22 means what? *
+
+1. It's actual amount spent for this budget, but its entries are not posted yet
+2. It's the amount that was supposed to be spent till now, considering the budget's period and the current date
+3. It's the amount of the bills issued for this budget, but it was not paid yet.
+
+> Explanation: Option 2 is correct.
+
+Question 16: When your accounting period is ended, and you have totally finished all your adjustment and reconciliation, how can you prevent anyone from doing any changes including yourself?
+
+1. By using the Lock Dates option and set (lock Date for All Users) to close the period
+2. By using the Lock Dates option and set (Lock Date for Non-Advisers) to close the period
+
+> Explanation: Option 1 is correct.
+
+Question 17: When you reconcile a statement, what does this blue line means? *
+
+1. It's a registered payment
+2. It's an open Invoice
+3. It's a payment with foreign currency
+
+> Explanation: Option 1 is correct.
+
+Question 18: If an Invoice is created in a Tax Locked period, what will happen?
+
+1. The user can't confirm the invoice, and he must change the date to a non-tax locked period
+2. The invoice will be posted, but the Accounting Date will be changed to the next available date after the locked period
+
+> Explanation: Option 2 is correct.
+
+Question 19: Assuming this Product Category configuration, if you increase the stock level on one of its products that has cost on its form, what is the journal entry generated?
+
+1. Debit: Stock Valuation Account, Credit: Stock Input Account
+2. Debit: Stock Output Account, Credit: Stock Valuation Account
+3. Debit: Stock Input Account, Credit: Stock Valuation Account
+
+> Explanation: Option 1 is correct.
+
+Question 20: If a product unit cost is $15, its product category Costing is AVCO, and you want to add 230 units to the stock. What is the Debit value on the Journal Entry generated on that move?
+
+1. No journal entry will be generated
+2. It the Product Category has Automated inventory valuation, the value will be $3450
+3. If the Product Category has Manual inventory valuation, he value will be $3450
+
+> Explanation: Debit value will be 15*230 = 3,450, and it will insert journal if Automated journal valuation. So option 2 is correct.
+
+Question 21: Where can you define the Stock Valuation Account?
+
+1. On the Product level only
+2. On the Product Category Only
+3. On the Product level or the Product Category level
+
+> Explanation: Stock valuation account can be define inside product category not individual product. So option 2 is correct.
+
+Question 22: If you change the Cost on the product form, what will occur?
+
+1. A journal entry will be generate to reduce the product cost, assuming Automated inventory valuation
+2. A journal entry will be generated to reduce the product cost, assuming Manual inventory valuation
+3. A stock move will be generate to reduce the value
+
+> Explanation: If you increase or decrease product cost and product category has automated journal option then it will set stock valuation account. So option 1 is correct.
+
+Question 23: You have 100 units of the Product (Fabric Chair) in your stock, with a unit cost as $120. If you purchased 50 units for $115, which of the below statement is FALSE regarding the unit cost after the receiving?
+
+1. Assuming Automated inventory valuation and Average costing method, the Unit cost will be $118.33
+2. Assuming Automated inventory valuation and FIFO costing method, the Unit cost will be $118.33
+3. Assuming Automated inventory valuation and Standard costing method, the Unit cost will be $120
+
+> Explanation: 
+
+Question 24: If you sold 30 units from the product (Fabric Chair), will the delivery change the product unit cost?
+
+1. No
+2. Yes
+
+> Explanation: Option 1 is correct.
+
+Question 25: Assuming the above configuration, what is the journal entry generated from the stock receipt move? *
+
+1. Debit: Stock Valuation Account, Credit: Stock Input Account
+2. Debit: Stock Input Account, Credit: Stock Valuation Account
+3. No entry will be generated
+
+> Explanation: No entry will be generated as its has Inventory Valuation manual. So option 3 is correct.
+
+Question 26: How can you prevent the creation or modification of journal entries up to a specific accounting date?
+
+1. By closing a period
+2. By setting lock date to lock a fiscal period
+3. By posting all journal entries
+
+> Explanation: By setting a lock date to a fiscal period. So option 2 is correct.
+
+Question 27: When editing a new customer invoice, is it possible to automatically define the fiscal position to use based on the customer's country?
+
+1. Yes
+2. No
+
+> Explanation: Yes it is possible to define it. So option 1 is correct.
+
+
+Question 28: Is it possible to configure a declining depreciation of assets?
+
+1. Yes
+2. No
+
+> Explanation: Yes user can configure declining depreciation method in individual asset. So option 1 is correct.
+
+Question 29: What happens if an account is managed in a different currency than the company's currency?
+
+1. Odoo stores the debit/credit of all journal items in the account currency only
+2. Odoo automatically converts amounts and stores them in the company currency
+3. Odoo stores the foreign currency amounts, then stores the converted
+
+> Explanation: Option 3 is correct.
+
+Question 30: What happens if a currency is not set on an account
+
+1. The account can be used for transactions in any currency
+2. The account can only be used for transactions in the main company currency
+3. It's not possible. A currency is required for each account
+
+> Explanation: Option 1 is correct answer.
+
+Question 31: When using the bank reconciliation tool, what happens if you match a bank statement line with an existing payment?
+
+1. It creates a new journal entry
+2. It updates the suspense account of the payment and links the entry to the bank transaction
+3. It does nothing as the payment already exists
+
+> Explanation: Option 2 is correct.
+
+Question 32: What will be the result on the next depreciation calculation?
+
+1. Answer A
+2. Answer B
+3. Answer C
+
+> Explanation: Option 1 is correct.
+
+Reference:  
+- https://www.udemy.com/course/odoo-16-certification-preparation/learn/lecture/41070678#overview
+  
+Question 33: Is it possible to change the reference of a posted journal entry
+
+1. Yes
+2. No
+
+> Explanation: Yes, user can change reference of a posted journal entry. So option 1 is correct.
+
+Question 34: What feature should you use to ensure that the right taxes are applied on an invoice based on the customer country?
+
+1. Tax groups
+2. Journal groups Account groups
+3. Fiscal Positions
+4. Incoterms
+
+> Explanation: User can use fiscal position to configure country with customer. So option 3 is correct.
+
+Question 35: In Odoo Accounting, how can you create a new customer invoice or vendor bill?
+
+1. Manuallly
+2. By uploading a document
+3. By sending an email to an email gateway
+4. All of the above
+
+> Explanation: User can create vendor bills using manually, by uploading documents, and by send emails to specific email address. So option 4 is correct.
+
+Question 36: How many charts of accounts can you have?
+
+1. As many as you'd like
+2. One per company
+3. One per year
+
+> Explanation: If user activate multi company feature, then each company must have one chart of account per company. So option 2 is correct.
+
+Question 37: In which order should lock dates be set for optimal use of Odoo?
+
+1. First, the lock date for non-advisors, then the tax lock date, and eventually, the lock date for all users
+2. First, the tax lock date, then the lock date for non-advisors, and eventually, the lock date for all users
+
+> Explanation: First lock tax, then journal entries and lastly for all users. So option 2 is correct.
+
+Question 38: A customer invoice with two different invoice line is posted, both invoices lines are recorded on the same account and are subject to the same 15% tax. How many journal items will be in this invoice?
+
+1. 2 journal iems
+2. 3 journal items
+3. 4 journal items
+4. 5 journal items
+
+> Explanation: 2 journal for 2 product, 1 for tax and 1 for account receivable. So option 3 is correct.
+
+Question 39: What kind of actions can you define when using the payment follow-up levels?
+
+1. Send email
+2. Print and send letter
+3. Send SMS
+4. Only email and letter are possible
+5. All are possible
+
+> Explanation: All are possible, so option 5 is correct.
+
+Question 40: What does it mean when you see a blue line item on the bank reconciliation screen?
+
+1. It is showing a registered payment
+2. A payment is registered in another currency than the default currency
+3. It represents an invoice
+
+> Explanation: Option 1 is correct.
+
+Question 41: How are the total tax amount rounded on an invoice?
+
+1. "Globally" based on the untaxed amount of the invoice
+2. "Per line" on each invoice line
+3. Either "globally" or "per line" as defined in the app's settings
+4. Either "globally" or "per line" as defined in the invoice's options
+
+> Explanation: Option 3 is correct.
+
+Question 42: When are the follow-up actions triggered?
+
+1. A given number of days after the invoice date defined on an invoice
+2. A given number of days after the due date defined on an invoice
+3. Once a month on a specific day, if the due date defined on the invoice has passed for at least seven days
+
+> Explanation: So option 2 is correct.
+
+Question 43: What happens when you post a vendor bill with an accounting date prior to a locked fiscal period?
+
+1. Odoo does not let you post the vendor bill preventing from creating a journal entry during a locked fiscal period
+2. Odoo automatically changes the accounting date to the first applicable date following the lock date and posts the vendor bill
+3. The locked fiscal mechanism does not apply here
+4. None of the above
+
+> Explanation: Option 2 is correct
+
+Question 44: How is the default income account of a product line determined?
+
+1. It's determined by the journal if none is defined by the product itself
+2. It's determined by the product only 
+3. It's determined by the journal only
+4. It's determined by the fiscal position only
+
+> Explanation: Option 1 is correct.
+
+Question 43: In a normal situation, the "Customer" location has a positive stock level or a Negative stock level?
+
+1. Negative stock level
+2. Positive stock level
+3. Should tend to zero
+
+> Explanation: When we send product on customer location then it will be positive. So option2 is correct.
 # 11. Sale
 # 12. Survey
 # 13. Helpdesk
