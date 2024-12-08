@@ -1236,7 +1236,7 @@ Question 44: How is the default income account of a product line determined?
 
 > Explanation: Option 1 is correct.
 
-Question 43: In a normal situation, the "Customer" location has a positive stock level or a Negative stock level?
+Question 45: In a normal situation, the "Customer" location has a positive stock level or a Negative stock level?
 
 1. Negative stock level
 2. Positive stock level
