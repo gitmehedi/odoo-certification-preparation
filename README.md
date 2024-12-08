@@ -1242,7 +1242,7 @@ Question 45: In a normal situation, the "Customer" location has a positive stock
 2. Positive stock level
 3. Should tend to zero
 
-> Explanation: When we send product on customer location then it will be positive. So option2 is correct.
+> Explanation: When we send product on customer location then it will be positive. So option 2 is correct.
 # 11. Sale
 # 12. Survey
 # 13. Helpdesk
