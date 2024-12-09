@@ -1242,9 +1242,90 @@ Reference:
 3. Should tend to zero
 
 > Explanation: When we send product on customer location then it will be positive. So option 2 is correct.
+
 # 11. Sale
+
 # 12. Survey
+**Question 1: Can you create a survey as a Certificate?**
+
+1. No, the eLearning app must be installed to do this option
+2. Yes, by activating the Scoring on the options and mark it as Certificate
+
+> Explanation: User can activate scoring in individual apps, So option 2 is correct.
+
+**Question 2: Can you limit the times that a survey could be repeated per user?**
+
+1. No, each user can pass the survey  once only
+2. Yes, by selecting the users allowed to retry the attempt on the survey options
+3. Yes, by make Login Required on the draft survey and set the Attempts Limit
+
+> Explanation: Yes, only logged in user can participate in limited participation. So option 3 is correct.
+
+**Question 3: Can you set a time limit for the survey, to be visible for the user?**
+
+1. No, there is no such feature
+2. Yes, by setting Survey Time Limit, but it will not be visible for the user
+3. Yes, by setting Survey Time Limit
+
+> Explanation: Option 3 is correct.
+
+**Question 4: Can you set a photo or video on the question?**
+
+1. No, it is not available
+2. Yes, add the photo or the video to the question description
+3. Yes, by using the Website Builder on the survey
+
+> Explanation: Yes, user can add photo or video on description in question. So option 2 is correct.
+
+**Question 5: If a survey asks for an email, how can you validate it is an email?**
+
+1. By adding a question with the type (Single Line Text Box) and select (Input must be an email on the answers tab)
+2. By adding a question with the type (email) and a make it a Mandatory Answer
+
+> Explanation: By adding a question with the type Single Line Text Box. So option 1 is correct.
+
+**Question 6: Can you add a score the question type (Matrix) on a certification?**
+
+1. No
+2. Yes
+
+> Explanation: No, actually, you can't add scoring in question type matrix. So option 1 is correct.
+
+**Question 7: What is the difference between these 2 options?**
+
+1. It changes the order of the questions
+2. It changes the question that will appear for each participant
+3. IT change which participants will be selected to take the test
+
+> Explanation: Option 2 is correct.
+
+**Question 8: What does validate entry mean?**
+
+1. This answer is automatically submitted in case you are disconnected from the survey
+2. You need to get this question right to pass the test
+3. You can control the input provided on this question
+
+> Explanation: User can control the input length of the provided text. So option 3 is correct.
+
+**Question 9: Which of the following cases is not handled?**
+
+1. Gathering marketing insights through a survey
+2. Certifications
+3. Organizing a fun quiz session with friends
+4. None of the above
+
+> Explanation: Everything handled by survey, so option 4 is not correct.
+
+**Question 10: Which question doesn't exist yet?**
+
+1. File Upload
+2. Datetime
+3. Multiple choice: multiple answers allowed
+
+> Explanation: File Upload is not supported by question. So option 1 is correct.
+> 
 # 13. Helpdesk
+
 # 14. Event
 
 # 15. Odoo Studio
