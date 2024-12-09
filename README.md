@@ -19,7 +19,6 @@
 - [13. Helpdesk](#13-helpdesk)
 - [14. Event](#14-event)
 - [15. Odoo Studio](#15-odoo-studio)
-- [References](#references)
 
 # 1. Introduction
 
@@ -1323,12 +1322,25 @@ Reference:
 3. Multiple choice: multiple answers allowed
 
 > Explanation: File Upload is not supported by question. So option 1 is correct.
-> 
+
 # 13. Helpdesk
+
+**Question 1: Can you allow your customers to submit a ticket from the website?**
+
+1. No, tickets are submitted through email only
+2. Yes, by activating the (Submit tickets with an online form) option on the Helpdesk team
+3. Yes, by activating the (Website Form) option on the Helpdesk team, publishing the team, and add the page URL to a menu on the website
+
+> Explanation: Option 3 is correct.
+
+**Question 2: Based on this SLA Policy configuration, when is this Policy status will be applied (Passed) on a Ticket?***
+
+1. When the ticket is reached the stage "Solved" within 2 days
+2. When the ticket is on the "Technical Support" team, its type is "Bug", and it reached the stage "Solved" within 2 days
+3. When the ticket is on the "Technical Support" team, its type is "bug", and it reached the stage "Solved" after 2 days
+
+> Explanation: Option 2 is correct
 
 # 14. Event
 
 # 15. Odoo Studio
-
-# References
-- 
