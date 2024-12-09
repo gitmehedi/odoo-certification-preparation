@@ -1343,4 +1343,35 @@ Reference:
 
 # 14. Event
 
+**Question 1: Which of these models cannot be targeted by a mailing campaign?**
+
+1. Attendees of an event
+2. Visitors to your website
+3. Sales Orders
+
+> Explanation: Option 2 is correct.
+
+**Question 2: In the event, "Exhibitors" are referred to as...?**
+
+1. Conference speakers
+2. Sponsors who hold a virtual booth
+3. Event organizer
+
+> Explanation: Option 2 is correct
+
+**Question 3: Event Stages...**
+
+1. Can be changed once your first Event is created
+2. Can be changed with the help of a developer
+3. Can be changed on the fly to fit your organizatinal needs
+
+> Explanation: Can be changed on the fly to fit user's organizational needs. So option 3 is correct.
+
+**Question 4: Can you send a mailing to multiple mailing lists?**
+
+1. Yes
+2. No
+
+> Explanation: Yes user can send email to multiple mailing list. So option 1 is correct.
+
 # 15. Odoo Studio
