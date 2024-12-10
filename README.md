@@ -879,6 +879,199 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 # 7. Timesheets
 # 8. Projects
 # 9. Purchase
+
+**Question 1: My cost method is "Average Cost". I have 48 pieces on hand of a product with a cost of 1000 EUR/Unit. If I receive 2 of these products for a price of 500 EUR/piece, what will be my unit cost?**
+
+1. 1000
+2. 500
+3. 980
+4. I don't know
+
+> Explanation: After receiving 2 product it will be 48+2‎ = 50 and (48*1000)+(2*500) = 49000, and 49000/50= 980. So option 3 is correct.  
+
+**Question 2: Can I prevent a product from being sold?**
+
+1. Yes, by archiving the product
+2. Yes by setting a blocking warning
+3. Yes by setting a blocking warning or archiving the product
+4. No, you can't
+5. I don't know
+
+> Explanation: You can prevent product sale using archiving the product using "Can be Sold" or add a warning message from Sale tab in product. So option 3 is correct.
+
+**Question 3: Can you order more quantities that what's in the purchase agreement if you're using "Blanket Order"? **
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: User can activate Blanket Order from settings, and can create new blanket order with any amount regardless of the purchase agreement. So option 1 is correct.
+
+**Question 4: Which vendor is selected by default on a request for quotation?**
+
+1. The first valid supplier in the list
+2. The one with the smallest delivery lead time
+3. The one with the smallest price
+4. I don't know
+
+> Explanation: If you enable reordering rules and set purchase vendor in product then it will create quotation with first vendor. So option 1 is correct.
+
+**Question 5: If you created a Purchased Agreement and it's Selection Type is one RFQ, what will happen if you created 3 Questions and confirmed of them?**
+
+1. The confirmed Quotation will be a Purchased Order, all other quotations will be canceled, and the Agreement status will be closed.
+2. The confirmed Quotation will be a Purchased Order, the user can confirm the other quotations, and can create more quotations from the Agreement also
+3. The Confirmed Quotation will be a Purchased Order, the user can confirm the other quotations, and the Agreement status will be closed.
+
+> Explanation: Purchase Agreement can activate by Settings in Purchase Agreement, and create a blanket order. So option 1 is correct.
+
+**Question 6: If you have a Purchase Order with (Blanket Order) type and Quantity of a product on the lines is 500 units, if you already ordered 375 units, can you order additional 250 units of this product on the same Agreement?**
+
+1. Yes
+2. No
+
+> Explanation: Yes, user can order as much quantity with blanket agreement. So option 1 is correct.
+
+**Question 7: Where can you define the Vendor Delivery lead Time?**
+
+1. On the Vendor
+2. On the warehouse
+3. On the Product
+
+> Explanation: User can set "Vendor Delivery lead Time" on "Purchase" tab in Products. So option 3 is correct.
+
+**Question 8: If you received quantity from a product in the Stock, assuming this product unit cost before receiving was $100, which of the below cases will result in a Cost change of this product?**
+
+1. The product costing method is "Average Cost" and the new unit cost in this PO is less/higher than $100
+2. The product costing method is "Average Cost" and the new unit cost in this PO is equal $100
+3. The product costing method is "First in First Out" and the new unit cost in this PO is less/higher than $100
+
+> Explanation: If inventory valuation is in Average Cost then incoming product price other that current price will change the costing price of product. So option 1 is correct.
+
+**Question 9: If you have a product with this configurations, and its current Quantity is 20 unit with a cost of $100/unit. What will be the product cost if you received additional 10 units for $15/unit?**
+
+1. 100
+2. 71.67
+3. 15
+
+> Explanation: If it enable Average Cost then purchase order quantity will be 100, so option 1 is correct.
+
+**Question 10: Can you add more product on a confirmed Purchase Order?**
+
+1. Yes, if it is not Locked
+2. No
+
+> Explanation: Yes, user can add more amount of product or add new product in confirmed order, but it will create new receipt. So option 1 is correct.
+
+**Question 11: If you have this product (TV Stand) in your stock, which its stock level on April 7th become below the reordering rule minimum quantity required as a Safety Stock. Based on this screenshot, is Odoo going to generates a Purchase Order, from which Vendor how many units, and the Unit price?**
+
+1. No Purchase Order will be generated
+2. Yes, Ashley, 11 Units, $92/Unit
+3. Yes, In & Out, 11 Units, $76/Unit
+
+> Explanation: Option 2 is correct.
+
+**Question 12: How can you generate a call for Tender for every sales order for a specific product?**
+
+1. Check the "Propose a Call for Tender" on the product form
+2. Check the "Propose a Call for Tender" on the Vendor Form
+3. Check the "Propose a Call for Tender" of the product category
+
+> Explanation: Option 1 is correct.
+
+**Question 13: When you purchase new products, how is the default schedules date computed on new Purchase Order lines?**
+
+1. Order Date - Vendor Lead Time - Company Security Days
+2. Order date + Vendor Lead Time
+3. Order Date + Vendor Lead Time + Company Lead Time
+
+> Explanation: Vendor Lead Time configured in Products purchase tab with vendor, but Company lead time will set in Inventory configuration but it will affect when automatic quotation created. So option 2 is correct for manual purchase order.
+
+**Question 14: When a purchased order is validated, is it stll possible to add purchase order lines?**
+
+1. Yes, as long as the purchase order is not "Locked"
+2. No, Never
+
+> Explanation: Option 1 is correct, until lock the purchase order.
+
+**Question 15: When selling a desk to your customer, you select the dropship route on the sales order line. What will happen when validating your sales order?**
+
+1. A delivery order is created, going directly from your supplier to the customer - no purchase order is needed
+2. A delivery order to your customer is created. You will order the product from your supplier, receive it, and deliver it to your customer
+3. A request for a quotation will be created for the vendor set on your product. Once validated, a receipt will be generate to directly send the product from the supplier to your customer.
+
+> Explanation: Enable dropshipping in inventory setting. Then enable dropship with product and create a sales order. So option 3 is correct.
+
+**Question 16: Product ABC has a lead time of 15 days and there is a purchase security lead time of 5 days. What will be schedule date of delivery?**
+
+1. This will be known at reception only
+2. Today + 20 days
+3. Today + 15 days
+
+> Explanation: As it's a manual order so security lead time will not counted, but if it is automatic then it will be counted. So for manual it will Today+ 15 days. So option 3 is correct.
+
+**Question 17: When you set your "Control Policy" to "On received quantities", will receiving an incoming shipment update the amount to be invoiced?**
+
+1. Yes
+2. No
+
+> Explanation: Yes, it will update. So option 1 is correct.
+
+**Question 18: When you generate a request for quotation on an agreement type set to "Use quantities of agreement", which of the following is true.**
+
+1. The quantity is set to 0 by default
+2. The quantity of the RFQ can't be changed
+3. The quantity of the RFQ can be changed
+
+> Explanation: The quantity can be changed. So option 3 is correct.
+
+**Question 19: Can you aggregate several purchase orders into on vendor bill?**
+
+1. Yes
+2. No
+
+> Explanation: Yes, user can aggregate several purchase order in same bill. So option 1 correct.
+
+**Question 20: A request for quotation is automatically created whenever**
+
+1. The route of the product is set as "Buy" and a reordering rule is triggered 
+2. The route on the product is set as "Buy" and a sale order is validated
+3. The route on the product is set as "Manufacture" and a quotation is created
+
+> Explanation: So option 1 is correct.
+
+**Question 21: You currently have 3 units of Office Table in stock, with a reordering rule & a min of 5 units and max of 15 units, and a quantity multiple of 10. What will be the data on the request for quotation created by this rule?**
+
+1. Quantity = 20 units, price = $420/unit
+2. Quantity = 20 units, price = $450/unit
+3. Quantity = 13 units, price = $470/unit
+4. Quantity = 12 units, price = $470/unit
+
+> Explanation: Option 2 is correct.
+
+**Question 22: If you have a product with several vendors assigned to it, which one will be used when an RFQ is automatically generated?**
+
+1. The first vendor on the list matching the minimum quantity condition
+2. The vendor with the shortest delivery lead time
+3. The vendor with the cheapest price
+
+> Explanation: Option 1 is correct.
+
+**Question 23: What is the expected behavior of a purchase agreement type with the "Select only one RFQ (Exclusive)" option configured?**
+
+1. Once a purchase order confirmed, all other requests for quotations are automatically canceled
+2. You can only create one request for a quotation per product
+3. You can only create one request for a quotation per agreement
+
+> Explanation: Option 1 is correct.
+
+**Question 24: Isa receipt automatically created when a quest for a quotation is confirmed?**
+
+1. Yes, if the inventory app is installed
+2. Yes, if there are some storeable/consumable products in the quotation
+3. Only if the 2 other answers are true
+
+> Explanation: If inventory app is installed and if some storeable/consumable product in quotation. So option 3 is correct
+
 # 10. Accounting
 
 **Question 1: Will Odoo allow to create an invoice (with a tax) in a closed tax period?**
