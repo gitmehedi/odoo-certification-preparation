@@ -22,7 +22,7 @@
 
 # 1. Introduction
 
-**Question 1**: When Printing a quote, how does Odoo determine which language to use?
+**Question 1: When Printing a quote, how does Odoo determine which language to use?**
 
 1. Use the language defined in the current user's preferences  
 2. Use the language defined on the customer record  
@@ -353,7 +353,7 @@ c. Anyone who has access to the workspace the spreadsheet is in
 
 # 3. Inventory
 
-Question 1: How many stock moves happen when you validate an inventory adjustment?
+**Question 1: How many stock moves happen when you validate an inventory adjustment?**
 
 1. One stock move for the whole inventory
 2. One stock move per adjustment line with an undated quantity
@@ -363,7 +363,7 @@ Question 1: How many stock moves happen when you validate an inventory adjustmen
 
 > Explanation: It will add a stock move record with an updated value in system, so 1 stock move will count. So option 2 is correct.
 
-Question 2: Where can you define the costing method?
+**Question 2: Where can you define the costing method?**
 
 1. On the product
 2. On the product category
@@ -372,7 +372,7 @@ Question 2: Where can you define the costing method?
 
 > Explanation: Costing method are define in Product Category. So option 2 is correct.
 
-Question 3: Can you define several reordering rules for the same product?
+**Question 3: Can you define several reordering rules for the same product?**
 
 1. Yes
 2. No
@@ -380,15 +380,15 @@ Question 3: Can you define several reordering rules for the same product?
 
 > Explanation: Several reordering rules is not apply for same products. So option 2 is correct.
 
-Question 4: According to the below screenshot, how many variants will be generated for this product?
+**Question 4: According to the below screenshot, how many variants will be generated for this product?**
 
 1. 23 variants
-2.  No variant will  be generated, as no stock yet added for the item
+2. No variant will  be generated, as no stock yet added for the item
 3. 192 variants, assuming all attributes Variants Creation Model is instantly
 
 > Explanation: Variant will be multiplied, so if you have 4 attribute and 3 attribute has 4 variant and 1 attribute has 3 variant then their multiplication will be 192. So option 3 is correct.
 
-Question 5: When you have multiple variants available for the product, how can you get the option on the above screenshot on the purchase order?
+**Question 5: When you have multiple variants available for the product, how can you get the option on the above screenshot on the purchase order?**
 
 1. It's automatically available for the attributes with Dynamically creation mode.
 2. It's automatically available for the attributes with Instantly creation mode
@@ -396,7 +396,7 @@ Question 5: When you have multiple variants available for the product, how can y
 
 > Explanation: There is option available in Sale and Purchase where you can set "Activating the Variant Grid Entry". So option 3 is correct.
 
-Question 6: Is it possible to purchase a Product using different Unit of Measurement?
+**Question 6: Is it possible to purchase a Product using different Unit of Measurement?**
 
 1. No, each product will have a single Unit of Measure per company
 2. Yes, any product can be purchased with any Unit of Measure
@@ -404,7 +404,7 @@ Question 6: Is it possible to purchase a Product using different Unit of Measure
 
 > Explanation: Yes, you can change the UOM only within the same category. So option 3 is correct.
 
-Question 7: Assuming this Product Category configuration, if you increase the stock level on one of its products that has cost on its form, what is the journal entry generated?
+**Question 7: Assuming this Product Category configuration, if you increase the stock level on one of its products that has cost on its form, what is the journal entry generated?**
 
 1. Debit, Stock Valuation Account, Credit: Stock Input Account
 2. Debit: Stock Output Account, Credit: Stock Valuation Account
@@ -412,30 +412,31 @@ Question 7: Assuming this Product Category configuration, if you increase the st
 
 > Explanation: So option 1 is correct.
 
-Question 8: If the product (Wood Polish) has an expiration date, how can you control it in the stock?
+**Question 8: If the product (Wood Polish) has an expiration date, how can you control it in the stock?**
 
 1. By define a Tracking option on the product and set the Expiration Time, Odoo will count the time based on the current date and it could be changed then stored.
-2.  By adding the Expiration Date on the stored units from On Hand quantitties
+2. By adding the Expiration Date on the stored units from On Hand quantitties
 3. By define a Tracking option on the product and set the Expiration Time, Odoo will count the time based on the current date only then store it.
 
 > Explanation: User can set Expiration Time from individual product and set the expiration duration, and it will effect on product receiving when purchase a product. So option 1 is correct.
 
-Question 9: Can you allocate the Landed Cost based on the Product Weight?
+**Question 9: Can you allocate the Landed Cost based on the Product Weight?**
+
 1. No, it could be allocated only equally or by cost
-2.  Yes, be select the option and add the weight on the weight field on the Landed Cost line
+2. Yes, be select the option and add the weight on the weight field on the Landed Cost line
 3. Yes, by selecting the option on the Landed Cost line, and define the product weight on the inventory tab on the Product form
 
 > Explanation: Yes, user can allocate landed cost depending on product weight, so option 3 is correct.
 
-Question 10: If you confirmed a Sales Order with a Product, will it affect the Forecasted quantity of this product?
+**Question 10: If you confirmed a Sales Order with a Product, will it affect the Forecasted quantity of this product?**
 
-1. yes, once the Sale is confirmed
-2.  Yes, but only if the quantity is Reserved from the stock
+1. Yes, once the Sale is confirmed
+2. Yes, but only if the quantity is Reserved from the stock
 3. No, the Forecasted quantity will be updated only when the ordered quantity is moved the stock
 
 > Explanation: yes, it will affect the forecasted quantity when confirm a order. So 2 is correct
 
-Question 11: Which of the below transactions will not affect the Product Forecasted quantity?
+**Question 11: Which of the below transactions will not affect the Product Forecasted quantity?**
 
 1. Confirming a Sales Order with enough quantity on Hand
 2. Confirming a Purchase for this product
@@ -443,7 +444,7 @@ Question 11: Which of the below transactions will not affect the Product Forecas
 
 > Explanation: Forecasted quantity will affect when confirm a sales order or purchase order but it not affected by validating a sales order or purchase order, So option 3 is correct. 
 
-Question 12: What does it mean if the forecasted quantity of a storable  product is less than a quantity on Hand?
+**Question 12: What does it mean if the forecasted quantity of a storable  product is less than a quantity on Hand?**
 
 1. Nothing as we don't know the complete history of each product
 2. New products are planned to arrive in stock
@@ -451,7 +452,7 @@ Question 12: What does it mean if the forecasted quantity of a storable  product
 
 > Explanation: If Quantity on Hand is bigger then Forecasted Quantity then some sale order already confirmed but Quantity on Hand is smaller than Forecasted Quantity then purchased order already confirmed. So option 3 is correct.
 
-Question 13: You have a customer interested in a product of yours that has a supplier deliver lead time that is less than your customer delivery lead time. This is a product that you do not sell often because it is rather expensive. With that in mind, what is the best procurement method for you to manage this product effectively.
+**Question 13: You have a customer interested in a product of yours that has a supplier deliver lead time that is less than your customer delivery lead time. This is a product that you do not sell often because it is rather expensive. With that in mind, what is the best procurement method for you to manage this product effectively.**
 
 1. Use the Master Production Schedule tool
 2. You should configure this product as a consumable type
@@ -459,28 +460,30 @@ Question 13: You have a customer interested in a product of yours that has a sup
 
 > Explanation: User should make this product Make to Order. So option 3 is correct.
 
-Question 14: When should you use "Consumable" as a product type?
+**Question 14: When should you use "Consumable" as a product type?**
+
 1. When managing inventory is not necessary
 2. When managing inventory is necessary
 3. When selling services
 
 > Explanation: When product don't need to manage stock. So option 2 is correct.
 
-Question 15: What is the "Customer lead time" field used for on the product form?
+**Question 15: What is the "Customer lead time" field used for on the product form?**
+
 1. It computes the order date based on the quotation date
 2. It computes the delivery order date when the quotation is confirmed
 3. It is displayed in the Terms & Conditions of the quotations
 
 > Explanation: Customer Lead Time used in product configuration for quotation order date setting. So option 2 is correct.
 
-Question 16: Can you define several reordering rules for the same product?
+**Question 16: Can you define several reordering rules for the same product?**
 
 1. Yes
 2. No
 
 > Explanation: Odoo will check automatically check multiple reordering rules for same product.
 
-Question 17: In a normal situation, the "Customer" location has a positive stock level or a Negative stock level?
+**Question 17: In a normal situation, the "Customer" location has a positive stock level or a Negative stock level?**
 
 1. Negative stock level
 2. Positive stock level
@@ -488,7 +491,7 @@ Question 17: In a normal situation, the "Customer" location has a positive stock
 
 > Explanation: As customer only purchase product so they should have always positive amount. So option 2 is correct.
 
-Question 18: You have 14 units on hand of the products below. If you run the following reordering rule how many units will be ordered?
+**Question 18: You have 14 units on hand of the products below. If you run the following reordering rule how many units will be ordered?**
 
 1. 0
 2. 40
@@ -497,15 +500,14 @@ Question 18: You have 14 units on hand of the products below. If you run the fol
 
 > Explanation: Correct option is 2.
 
-Question 19: If not specifically defined, stock moves are always managed in FIFO?
+**Question 19: If not specifically defined, stock moves are always managed in FIFO?**
 
 1. Yes
 2. No
 
 > Explanation: Stock removal strategy set on location, from Inventory. Depending on removal strategy product are removed from stock. By default removal strategy is FIFO. So option 1 is correct.
 
-
-Question 20: When buying a product, when is the quantity on hand of that product increased?
+**Question 20: When buying a product, when is the quantity on hand of that product increased?**
 
 1. When the purchase order is validated
 2. When the receipt is validated
@@ -513,14 +515,14 @@ Question 20: When buying a product, when is the quantity on hand of that product
 
 > Explanation: When you buy product it will create a receipt after validating a purchase order and it updates Forecast Quantity and if you validate the receipt then it will update On-Hand Quantity. So option 2 is correct.
 
-Question 21: Is it possible to make conversion between two units of measure from different categories?
+**Question 21: Is it possible to make conversion between two units of measure from different categories?**
 
 1. Yes
 2. No
 
 > Explanation: Not actually, basic rules is you can't convert values for two different categories. So option 2 is correct.
 
-Question 22: You have 14 units on hand of the products below. If you run the following reordering rule how many units will be manufactured?
+**Question 22: You have 14 units on hand of the products below. If you run the following reordering rule how many units will be manufactured?**
 
 1. 0
 2. 40
@@ -529,7 +531,7 @@ Question 22: You have 14 units on hand of the products below. If you run the fol
 
 > Explanation: As manufacturing depends on Routes and there is not routes set on here, so nothing will create. So option 1 is correct.
 
-Question 23: When performing an inventory adjustment, if you want to apply the counted quantity for several inventory lines at the same time, what will be created?
+**Question 23: When performing an inventory adjustment, if you want to apply the counted quantity for several inventory lines at the same time, what will be created?**
 
 1. One stock move for the whole inventory adjustment
 2. One stock move per adjustment line with an updated quantity
@@ -537,7 +539,7 @@ Question 23: When performing an inventory adjustment, if you want to apply the c
 
 > Explanation: For every updated quantity it will create an individual stock move. So option 2 is correct.
 
-Question 24: You have a product with a reordering rule of min 5, max 10, to be triggered manually. How can you launch this rule?
+**Question 24: You have a product with a reordering rule of min 5, max 10, to be triggered manually. How can you launch this rule?**
 
 1. By clicking on replenish in the product view
 2. By clicking on Run Scheduler from the inventory operation menu
@@ -546,14 +548,14 @@ Question 24: You have a product with a reordering rule of min 5, max 10, to be t
 
 > Explanation: As manual replenishment can done using several ways so all answer is correct. So option 4 is correct.
 
-Question 25: In Odoo is it possible that a company using locations has two products with the same serial number?
+**Question 25: In Odoo is it possible that a company using locations has two products with the same serial number?**
 
 1. Yes
-2.  No
+2. No
 
 > Explanation: Odoo has composite unique key with serial no and product, so same product with same serial no is not possible but different product with same serial no is possible in odoo. So option 1 is correct.
 
-Question 26: Regarding inventory adjustment, which of these propositions is FALSE?
+**Question 26: Regarding inventory adjustment, which of these propositions is FALSE?**
 
 1. A transfer with 0 quantity is created when on hand and counted quantity are the same
 2. You can set the frequency of counts on product categories
@@ -562,7 +564,7 @@ Question 26: Regarding inventory adjustment, which of these propositions is FALS
 
 > Explanation: Option 2 is correct.
 
-Question 27: Where can you set up stock valuation accounts?
+**Question 27: Where can you set up stock valuation accounts?**
 
 1. On the product category level and on certain types of locations
 2. Only on the product level
@@ -571,8 +573,7 @@ Question 27: Where can you set up stock valuation accounts?
 
 > Explanation: User can set stock valuation accounts in Product Category with automated feature and Location where location_type either Inventory loss or production. So option 1 is correct.
 
-
-Question 28: you have 20 units of a table in stock. 10 of those units belongs to you, and the others 10 belong to their owner, Azure interior. What is your inventory value for those tables if they cost you $500 units?
+**Question 28: you have 20 units of a table in stock. 10 of those units belongs to you, and the others 10 belong to their owner, Azure interior. What is your inventory value for those tables if they cost you $500 units?**
 
 1. 5000
 2. 10000
@@ -580,8 +581,7 @@ Question 28: you have 20 units of a table in stock. 10 of those units belongs to
 
 > Explanation: 5000, so option 1 is correct.
 
-
-Question 29: User have Woodshield as a product that you track by lot, in order to follow expiration dates. Its removal strategy is set to FIFO. You have 40 units in stock, divided into the 4 following lot numbers (10 units of each). If you have to deliver 15 units, which lot number will be automatically reserved by Odoo?
+**Question 29: User have Woodshield as a product that you track by lot, in order to follow expiration dates. Its removal strategy is set to FIFO. You have 40 units in stock, divided into the 4 following lot numbers (10 units of each). If you have to deliver 15 units, which lot number will be automatically reserved by Odoo?**
 
 1. 10 units of LOT-001 & 5 units of LOT-002
 2. 10 units of LOT-003 & 5 units of LOT-002
@@ -589,7 +589,7 @@ Question 29: User have Woodshield as a product that you track by lot, in order t
 
 > Explanation: As in FIFO strategy Oldest one will remove first. So option 2 is correct
 
-Question 30: With which costing method can the landed costs be used?
+**Question 30: With which costing method can the landed costs be used?**
 
 1. AVCO
 2. FIFO
@@ -597,7 +597,7 @@ Question 30: With which costing method can the landed costs be used?
 
 > Explanation: Product Category must contain costing method either AVCO or FIFO. So option 2 is correct.
 
-Question 31: Regarding this forecast report, assuming none of these sales orders have priority, what will happen if you set your priority on S00113.
+**Question 31: Regarding this forecast report, assuming none of these sales orders have priority, what will happen if you set your priority on S00113.**
 
 1. The most recent sales order will be unreserved, and S00113 will move to the list
 2. All reserved deliveries will be unreserved, and 10 units will be reserved for S00113
@@ -605,7 +605,7 @@ Question 31: Regarding this forecast report, assuming none of these sales orders
 
 > Explanation: Nothing will happen until reserved quantities are manually unreserved. So option 3 is correct.
 
-Question 32: I want to move all items that should be picked in WH/stock/shelf1 for internal transfer. What should I do?
+**Question 32: I want to move all items that should be picked in WH/stock/shelf1 for internal transfer. What should I do?**
 
 1. A batch picking
 2. A cluster picking
@@ -613,7 +613,7 @@ Question 32: I want to move all items that should be picked in WH/stock/shelf1 f
 
 > Explanation: A batch picking is used for batch transfer. So option 1 is correct.
 
-Question 33: What happens when you validate a delivery order for a customer?
+**Question 33: What happens when you validate a delivery order for a customer?**
 
 1. It decrements your available stock for this product, but not in any other location
 2. It decrements your available stock for this product and increments a customer location.
@@ -621,7 +621,7 @@ Question 33: What happens when you validate a delivery order for a customer?
 
 > Explanation: When validate a delivery order it decrements On-hand quantity and increments customer location quantity. So option 3 is correct.
 
-Question 34: When you manually update the quantity on hand of a product via the "Update Quantity" button on the product form view, does it generate a stock move?
+**Question 34: When you manually update the quantity on hand of a product via the "Update Quantity" button on the product form view, does it generate a stock move?**
 
 1. Yes
 2. No
@@ -640,7 +640,7 @@ Question 34: When you manually update the quantity on hand of a product via the 
 **Question 36: I can't set the capacity on a location by**
 
 1. Product
-2. Package type 
+2. Package type
 3. Volume
 4. Weight
 
@@ -663,8 +663,9 @@ Question 34: When you manually update the quantity on hand of a product via the 
 
 > Explanation: Check Again. So option 3 is correct.
 
-**Question 39: I have 5 units of a product in my warehouse, but those 5 units need to be delivered in 6 months. I've just confirmed a sales order for 3 units but can't deliver it now since everything is reserved. Which of these propositions can avoid this situation? **
-A. Star the picking of 3 units 
+**Question 39: I have 5 units of a product in my warehouse, but those 5 units need to be delivered in 6 months. I've just confirmed a sales order for 3 units but can't deliver it now since everything is reserved. Which of these propositions can avoid this situation?**
+
+A. Star the picking of 3 units
 B. Don't set the reservation method to "At Confirmation"
 C. Unreserve picking of 5, star picking 3
 
@@ -676,7 +677,8 @@ C. Unreserve picking of 5, star picking 3
 > Explanation: As Delivery picking is set At Confirmation just remove it first then Unreserve the picking. So option 3 is correct.
 
 # 4. MRP
-Question 1: Can I continue a manufacturing operation without having to validate a quality check if one is requested?
+
+**Question 1: Can I continue a manufacturing operation without having to validate a quality check if one is requested?**
 
 1. Yes
 2. No
@@ -684,7 +686,7 @@ Question 1: Can I continue a manufacturing operation without having to validate 
 
 > Explanation: As we can bias the quality check without proper configuration in odoo 17 so, answer may conflict. So option 1/2 both will be correct.
 
-Question 2: Can you define several bill of materials for the same product?
+**Question 2: Can you define several bill of materials for the same product?**
 
 1. Yes
 2. No
@@ -692,15 +694,15 @@ Question 2: Can you define several bill of materials for the same product?
 
 > Explanation: We can have multiple BOM for same product, so we can manufacture various types of product. So option 1 is correct.
 
-Question 3: Is it possible to create a routing operation without a work center? 
+**Question 3: Is it possible to create a routing operation without a work center?**
 
 1. Yes
-2. No	
+2. No
 3. I don't know
 
 > Explanation: As routing operation depends on bill of material and work centre so you can't create it without routing operation. So option 2 is correct.
 
-Question 4: Can you define several bill of materials for the same product?
+**Question 4: Can you define several bill of materials for the same product?**
 
 1. Yes
 2. No
@@ -708,22 +710,22 @@ Question 4: Can you define several bill of materials for the same product?
 
 > Explanation: We can have multiple BOM for same product, so we can manufacture various types of product. So option 1 is correct.
 
-Question 5: The company (Wood Art) is manufacturing a product (Office Desk), this product consumes wood layers and after it's production, it produces also a (Sawdust), which is sold later to another customer. What option you could use to record this produced (Sawdust)?
+**Question 5: The company (Wood Art) is manufacturing a product (Office Desk), this product consumes wood layers and after it's production, it produces also a (Sawdust), which is sold later to another customer. What option you could use to record this produced (Sawdust)?**
 
 1. It will be added manually after the close of the Manufacturing Order
 2. It will be defined as a By-Product on the Bill of Material and it will be added automatically with the related Work Order.
 
 > Explanation: First enable by-product features from settings, and after selection configure By-product from Bill of Material and it will create by product from after finish a product in Manufacturing order. So option 2 is correct.
 
-Question 6: If you have a Bill of Material for the product (Desk K12), and you use the Work Center (Assembly Station 1) with this setting in its operation. Assuming no other Work Orders on the Assembly Work Center, what will happen when you confirm MO with 10 units?*
+**Question 6: If you have a Bill of Material for the product (Desk K12), and you use the Work Center (Assembly Station 1) with this setting in its operation. Assuming no other Work Orders on the Assembly Work Center, what will happen when you confirm MO with 10 units?**
 
 1. Two Work Order will be  created on this Work Center
 2. The Expected Duration for the Work Order on this Work Center will be multiplied
-3. The Manufacturing Order will not be Planned 
+3. The Manufacturing Order will not be Planned
 
 > Explanation: As the operation depends on Work Center capacity and in current work center has only 8 capacity. So option 2 is correct.
 
-Question 7: What is the effect of this defined time on the Work Center?
+**Question 7: What is the effect of this defined time on the Work Center?**
 
 1. Any Operation on this Work Center will have an extra 30 minutes added to its Expected Duration.
 2. The Operation on this Work Center will have an extra 19 minutes added to its Expected Duration.
@@ -731,7 +733,7 @@ Question 7: What is the effect of this defined time on the Work Center?
 
 > Explanation: As every work center has startup time and cleanup time so extra time will be startup time + cleanup time. So option 1 is correct.
 
-Question 8: Can you change the Quantity to Produce after the Manufacturing Order is confirmed?
+**Question 8: Can you change the Quantity to Produce after the Manufacturing Order is confirmed?**
 
 1. No, one confirmed, the MO Quantity can't be changed
 2. Yes, by click on the number on the field update the (Quantity to Produce), and Approve
@@ -739,14 +741,14 @@ Question 8: Can you change the Quantity to Produce after the Manufacturing Order
 
 > Explanation: Yes user can change the quantity of the MO after confirm. So option 2 is correct.
 
-Question 9: What is the (CHECK AVAILABILITY) button on the Manufacturing Order will do?
+**Question 9: What is the (CHECK AVAILABILITY) button on the Manufacturing Order will do?**
 
 1. It will check the Availability of the Work Centers
 2. It will Reserve the Components from the Stock
 
 > Explanation: Check Availability button reserve the component amount from stock. So option 2 is correct.
 
-Question 10: How can you scrap a broken component during the manufacturing process?
+**Question 10: How can you scrap a broken component during the manufacturing process?**
 
 1. From the Scrap option on the Manufacturing Order
 2. From the Scrap option on the Work Order
@@ -754,7 +756,7 @@ Question 10: How can you scrap a broken component during the manufacturing proce
 
 > Explanation: As Scrap option available in both Manufacturing Order and Work Order, so option 3 is correct.
 
-Question 11: When is the MO status is changed to (TO CLOSE)?
+**Question 11: When is the MO status is changed to (TO CLOSE)?**
 
 1. Only when the Components are consumed
 2. Only when the Components are consumed and all Operations are Finished
@@ -762,24 +764,22 @@ Question 11: When is the MO status is changed to (TO CLOSE)?
 
 > Explanation: Only when the component are consumed and all operation are finished. So option 2 is correct.
 
-Question 12: If you produce a product which its Bill of Material has a By-Product, when is the By-Product will be produced?
+**Question 12: If you produce a product which its Bill of Material has a By-Product, when is the By-Product will be produced?**
 
 1. When the Manufacturing Order is Marked as Done
 2. Always after the first Work Order is finished
 3. After the first Work Order is finished, unless the Operation for the By-Product is configured on BOM, then it will be produced when this operation is Finished
 
-
 > Explanation: When manufacturing is done then By-Product will generate. So option 1 is correct.
 
-Question 13: If you consumed components more than planned in BOM, is this extra component cost will be added to the finished product cost?
+**Question 13: If you consumed components more than planned in BOM, is this extra component cost will be added to the finished product cost?**
 
 1. Yes, the extra consumption will be added to the finished product cost, and will appear on the MO Cost Analysis
 2. No, the extra consumption will be considered as an adjustment loss, but will appear on the MO Cost Analysis
 
 > Explanation: Option 1 is correct.
 
-
-Question 14: If you have this BOM for the product (Modern Desk). The components cost per unit is $10 for Wood Layer, $70 for Metal Leg, and $120 for Woodshield, and the cost per hour for the Work Centers is $30 for Wood Station, $25 for Assembly Station 1, and $45 for Painting Station. Assuming Automated Inventory Valuation, if you produced 1 unit of Modern Desk with the exact material consumption, and the Real Duration as Expected, what is the cost of this finished unit?*
+**Question 14: If you have this BOM for the product (Modern Desk). The components cost per unit is $10 for Wood Layer, $70 for Metal Leg, and $120 for Woodshield, and the cost per hour for the Work Centers is $30 for Wood Station, $25 for Assembly Station 1, and $45 for Painting Station. Assuming Automated Inventory Valuation, if you produced 1 unit of Modern Desk with the exact material consumption, and the Real Duration as Expected, what is the cost of this finished unit?**
 
 1. 300
 2. 200
@@ -787,7 +787,7 @@ Question 14: If you have this BOM for the product (Modern Desk). The components 
 
 > Explanation: So equation is (10*3+70*1+120*.5)‎ = 160, (30+25+45)‎ = 100, sum is 160+100‎ = 260. So option 3 is correct.
 
-Question 15: What will happen when you confirm a Sales Order with a product that has a BOM Type "Kit"?
+**Question 15: What will happen when you confirm a Sales Order with a product that has a BOM Type "Kit"?**
 
 1. A Delivery Order will be created with the components of this BOM
 2. A Manufacturing Order will be created to produce this product
@@ -795,15 +795,14 @@ Question 15: What will happen when you confirm a Sales Order with a product that
 
 > Explanation: It will create a delivery order with BOM component when try to create a sales order. So option 1 is correct.
 
-Question 16: Can you use a Bill of Material with type "Kit" on the Manufacturing Order?
+**Question 16: Can you use a Bill of Material with type "Kit" on the Manufacturing Order?**
 
 1. Yes
 2. No
 
 > Explanation: No, Kit type is not used in Manufacturing Order. So option 2 is correct.
 
-
-Question 17: What is the (Indirect Demand Forecast) for the Master Desk?*
+**Question 17: What is the (Indirect Demand Forecast) for the Master Desk?**
 
 1. The demand coming from a validated a validated Sales Order with this Product
 2. The demand coming from a validated Manufacturing Order for a product where the Master Desk is one of its components
@@ -811,15 +810,14 @@ Question 17: What is the (Indirect Demand Forecast) for the Master Desk?*
 
 > Explanation: Option 3 is correct.
 
-
-Question 18: Can you use the Engineering Change Order to update the manufactured product configurations?
+**Question 18: Can you use the Engineering Change Order to update the manufactured product configurations?**
 
 1. No, the ECO is used to update the BOM only
 2. Yes, ECO is used either to update the Product or its BOM
 
 > Explanation: First install PLM apps. ECO can be used to update Product and its related BOM. So option 2 is correct.
 
-Question 19: Can you apply approvals on the ECO document?
+**Question 19: Can you apply approvals on the ECO document?**
 
 1. Yes, manually add the user and approval type on the ECO Type
 2. Yes, manually add the user and approval type on the ECO Stage
@@ -827,14 +825,14 @@ Question 19: Can you apply approvals on the ECO document?
 
 > Explanation: Yes, it can be manually add user approval in ECO Stage. So option 2 is correct.
 
-Question 20: Once a manufacturing order is validated can you produce more than initially expected?
+**Question 20: Once a manufacturing order is validated can you produce more than initially expected?**
 
 1. Yes
 2. No
 
 > Explanation: Yes, you can add more amount initially expected. So option 1 is correct.
 
-Question 21: What is the purpose of Engineering Change Order?
+**Question 21: What is the purpose of Engineering Change Order?**
 
 1. Create customized products based on SOS
 2. Manage BOM Versions
@@ -842,7 +840,7 @@ Question 21: What is the purpose of Engineering Change Order?
 
 > Explanation: ECO is used to modify Product Configuration and BOM with certain level of approvals. So option 2 is correct.
 
-Question 22: How is the Mean Time to Repair (MTTR) calculated?
+**Question 22: How is the Mean Time to Repair (MTTR) calculated?**
 
 1. Total downtime (in days)/ number of breakdowns
 2. Total uptime (in days)/number of breakdowns
@@ -850,7 +848,7 @@ Question 22: How is the Mean Time to Repair (MTTR) calculated?
 
 > Explanation: Total Downtime (in days)/Number of Breakdowns. So option 1 is correct.
 
-Question 23: What type of quality check should I perform if during the same operation, various lots of the same product have to be tested separately?
+**Question 23: What type of quality check should I perform if during the same operation, various lots of the same product have to be tested separately?**
 
 1. Operation quality check
 2. Product type quality check
@@ -858,7 +856,7 @@ Question 23: What type of quality check should I perform if during the same oper
 
 > Explanation: 
 
-Question 24: How can you configure Odoo to automate the creation of preventive maintenance requests?
+**Question 24: How can you configure Odoo to automate the creation of preventive maintenance requests?**
 
 1. Setup preventive maintenance frequency on the equipment (machine tools)
 2. Setup preventive maintenance frequency on the work center
@@ -866,18 +864,23 @@ Question 24: How can you configure Odoo to automate the creation of preventive m
 
 > Explanation: 
 
-Question 25: In an OEE calculation, whats included in the fully productive time?
+**Question 25: In an OEE calculation, whats included in the fully productive time?**
 
 1. The recorded working time that does not exceed the expected working time
 2. All recorded time on a work order, until it is marked as done
 3. All time recorded on the work order during the working schedule of the work center
 
 > Explanation: 
+
 # 5. Website & E-Commerce
+
+
 # 6. Human Resources
 
 # 7. Timesheets
+
 # 8. Projects
+
 # 9. Purchase
 
 **Question 1: My cost method is "Average Cost". I have 48 pieces on hand of a product with a cost of 1000 EUR/Unit. If I receive 2 of these products for a price of 500 EUR/piece, what will be my unit cost?**
@@ -899,7 +902,7 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 
 > Explanation: You can prevent product sale using archiving the product using "Can be Sold" or add a warning message from Sale tab in product. So option 3 is correct.
 
-**Question 3: Can you order more quantities that what's in the purchase agreement if you're using "Blanket Order"? **
+**Question 3: Can you order more quantities that what's in the purchase agreement if you're using "Blanket Order"?**
 
 1. Yes
 2. No
@@ -1321,11 +1324,8 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 3. Answer C
 
 > Explanation: Option 1 is correct.
-
-Reference:  
-- https://www.udemy.com/course/odoo-16-certification-preparation/learn/lecture/41070678#overview
   
-**Question 33: Is it possible to change the reference of a posted journal entry**
+**Question 33: Is it possible to change the reference of a posted journal entry?**
 
 1. Yes
 2. No
@@ -1503,7 +1503,7 @@ Reference:
 
 > Explanation: April 6th as Delivery Date + Customer Lead Time - Security Lead Time. for manual order. So option 3 is correct.
 
-Question 9: What is the effect of this product configuration?*
+**Question 9: What is the effect of this product configuration?**
 
 1. If a Sales Order is confirmed for this product, a Manufacturing Order will be auto-generated
 2. If a Manufacturing Order is confirmed for this product, an RFQ will be auto-generated
@@ -1559,7 +1559,7 @@ Question 9: What is the effect of this product configuration?*
 
 > Explanation: Both option are correct. So option 3 is correct.
 
-Question 16: The graph below represents the historical stock value of  one of your products. What is the likely procurement method used for this product?
+**Question 16: The graph below represents the historical stock value of  one of your products. What is the likely procurement method used for this product?**
 
 > Explanation: 
 
