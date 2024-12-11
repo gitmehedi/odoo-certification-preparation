@@ -1138,7 +1138,7 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 
 > Explanation:  Option 2 is correct.
 
-**Question 9: Based on this configuration, what is the value of the first Depreciation that will be computed?***
+**Question 9: Based on this configuration, what is the value of the first Depreciation that will be computed?**
 
 1. 77.41
 2. 77.99
@@ -1146,7 +1146,7 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 
 > Explanation: Option 1 is correct.
 
-**Question 10: Based on this configuration, what is the journal entry generated for the depreciation lines? ***
+**Question 10: Based on this configuration, what is the journal entry generated for the depreciation lines?**
 
 1. Debit: Expense Account, Credit: Fixed Account
 2. Debit: Expense Account, Credit: Depreciation Account
@@ -1183,7 +1183,7 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 
 > Explanation: 
 
-**Question 15: Based on this approved budget, the Theoretical amount of $97,808.22 means what? ***
+**Question 15: Based on this approved budget, the Theoretical amount of $97,808.22 means what?** 
 
 1. It's actual amount spent for this budget, but its entries are not posted yet
 2. It's the amount that was supposed to be spent till now, considering the budget's period and the current date
@@ -1198,7 +1198,7 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 
 > Explanation: Option 1 is correct.
 
-**Question 17: When you reconcile a statement, what does this blue line means? ***
+**Question 17: When you reconcile a statement, what does this blue line means?**
 
 1. It's a registered payment
 2. It's an open Invoice
@@ -1260,7 +1260,7 @@ Question 25: In an OEE calculation, whats included in the fully productive time?
 
 > Explanation: Option 1 is correct.
 
-**Question 25: Assuming the above configuration, what is the journal entry generated from the stock receipt move? ***
+**Question 25: Assuming the above configuration, what is the journal entry generated from the stock receipt move?**
 
 1. Debit: Stock Valuation Account, Credit: Stock Input Account
 2. Debit: Stock Input Account, Credit: Stock Valuation Account
@@ -1511,7 +1511,7 @@ Question 9: What is the effect of this product configuration?*
 
 > Explanation: Option 3 is correct.
 
-**Question 10: What is the effect of this product configuration? ***
+**Question 10: What is the effect of this product configuration?**
 
 1. If a Sales Order is confirmed for this product, a Manufacturing Order will be auto-generated
 2. If a Manufacturing Order is confirmed for this product, an RFQ will be auto-generated
@@ -1519,7 +1519,7 @@ Question 9: What is the effect of this product configuration?*
 
 > Explanation: Option 1 is correct.
 
-**Question 11: What is the effect of this product configuration? ***
+**Question 11: What is the effect of this product configuration?**
 
 1. IF a Sales Order is confirmed for this product, a Manufacturing Order will be auto-generated
 2. If a Manufacturing Order is confirmed for this product, an RFQ will be auto-generated
@@ -1723,7 +1723,7 @@ Question 16: The graph below represents the historical stock value of  one of yo
 
 > Explanation: Option 3 is correct.
 
-**Question 2: Based on this SLA Policy configuration, when is this Policy status will be applied (Passed) on a Ticket?***
+**Question 2: Based on this SLA Policy configuration, when is this Policy status will be applied (Passed) on a Ticket?**
 
 1. When the ticket is reached the stage "Solved" within 2 days
 2. When the ticket is on the "Technical Support" team, its type is "Bug", and it reached the stage "Solved" within 2 days
