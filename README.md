@@ -1437,7 +1437,209 @@ Reference:
 
 # 11. Sale
 
+Question 1: What does this product configuration imply?
+
+1. The product will be ordered from a vendor every time a sales or manufacturing order is validated?
+2. If a reordering rule is set up, the product will be ordered from a vendor when the rule is triggered
+3. The product will be manufactured every time a sales or manufacturing order is validated
+4. I don't know
+
+> Explanation: If reordering rule set up then it will order automatically. So option 2 is correct.
+
+Question 2: What is the effect of this pricelist item?
+
+1. Discount of 20% on all products?
+2. Extra of 20% on the price of all products
+3. I don't know
+
+> Explanation: If create a pricelist formula with 20% discount then option 1 is correct.
+
+Question 3: What do you need to set on your product to be used in a sales order?
+
+1. Nothing, all your products can be sold
+2. You can only find products that are available in stock
+3. You need to set "Can be sold" on the product
+4. I don't know
+
+> Explanation: User need to set "Can be Sold" to sale. So option 3 is correct.
+
+Question 4: Can you add a Sales Order with a Delivery Address other that the customer's main address?
+
+1. Yes, by define a new Delivery Address on the customer contact and select it on the Sales Order
+2. Yes, but only one Delivery Address is defined per customer, and will be added to all its Sales Orders
+3. No, the Delivery Address will be the Company Address
+
+> Explanation: Yes, user can set invoice and delivery differently. User need to set it from Accounting Setting. So option 1 is correct.
+
+Question 5: Can you determine which Warehouse the delivery will be made from on a Sales Order?
+
+1. No, the delivery is done only from the Main Warehouse
+2. Yes, by selecting the Warehouse on the Delivery options on the Sale Order
+3. Yes, by using the Put Away Rules
+
+> Explanation: If there is no option for selecting warehouse because it's default but if you have multiple warehouse then it will open an option in quotation to select the warehouse. So option 2 is correct.
+
+Question 6: If you already added the lines to the Sales Order, will the lines prices be adapted automatically if you changed the pricelist?
+
+1. No, the user must delete the lines and add them again
+2. Yes, Odoo will automatically update the lines with the Save
+3. No, the user must delete the lines and add them again, or he can click on (Update Price) button next to the Pricelist field
+
+> Explanation: If user change the pricelist then need to click the update price button or add new line. So option 3 is correct. 
+
+Question 7: What is the effect of this pricelist on a Product with a Cost of $739?
+
+1. The sales price will be $960.90
+2. The sales price will be $960.80
+3. The sales price will be $960.70
+
+> Explanation: Sale Price will be 739*1.3‎ = 960.7 and rounded will be 961 and discount will be 961-.1 = 960.9. So option 1 is correct.
+
+Question 8: What will be the deliver Scheduled Date when confirming an oder on April 1st with a product that has 5 days as a Customer Lead Time, and a Security Lead Time for Sales as 2 days?
+
+1. April 3rd
+2. April 6th
+3. April 4th
+
+> Explanation: April 6th as Delivery Date + Customer Lead Time - Security Lead Time. for manual order. So option 3 is correct.
+
+Question 9: What is the effect of this product configuration?*
+
+1. If a Sales Order is confirmed for this product, a Manufacturing Order will be auto-generated
+2. If a Manufacturing Order is confirmed for this product, an RFQ will be auto-generated
+3. If a reordering rule set on the product is triggered, an RFQ will be auto-generated
+
+> Explanation: Option 3 is correct.
+
+Question 10: What is the effect of this product configuration?*
+
+1. If a Sales Order is confirmed for this product, a Manufacturing Order will be auto-generated
+2. If a Manufacturing Order is confirmed for this product, an RFQ will be auto-generated
+3. If a reordering rule set on the product is triggered, an RFQ will be auto-generated
+
+> Explanation: Option 1 is correct.
+
+Question 11: What is the effect of this product configuration?*
+
+1. IF a Sales Order is confirmed for this product, a Manufacturing Order will be auto-generated
+2. If a Manufacturing Order is confirmed for this product, an RFQ will be auto-generated
+3. If a reordering rule set on the product is triggered, an RFQ will be auto-generated
+
+> Explanation: Option 3 is correct.
+
+Question 12: When configuring a pricelist with formula rules, when is the surcharge applied ( Extra Fees) during the price computation?
+
+1. Before the discount and the rounding
+2. Before the discount, after the rounding
+3. After the discount, after the rounding
+
+> Explanation: After the discount, after the rounding. So option 3 is correct.
+
+Question 13: What does the following product configuration imply?
+
+1. If a reordering rule set on the product is triggered, a manufacturing order will be generated
+2. Any time a sales or manufacturing order is validated, an RFQ will automatically be generated
+3. Any time a sales or manufacturing order is validated, a manufacturing order will be generated
+
+> Explanation: Option 3 is correct
+
+
+Question 14: What condition must be true when using a default unit of measure and purchase unit of measure?
+
+1. The purchase unit of measure must be in the same category as the default unit of measure
+2. These two units of measure must be in different categories
+3. These two units of measure must have the same name
+
+> Explanation: They must be in same category for a specific product. So option 1 is correct.
+
+Question 15: How could you prevent a specific product from being used in quotations?
+
+1. By archiving the product
+2. Be setting a blocking warning
+3. Both solutions are correct
+
+> Explanation: Both option are correct. So option 3 is correct.
+
+Question 16: The graph below represents the historical stock value of  one of your products. What is the likely procurement method used for this product?
+
+
+
+> Explanation: 
+
+
+Question 17: Which of the following is true regarding this computation?
+
+1. For Customers associated with this pricelist, you allow a reduction of exactly 10% on all products
+2. For customers associated with this pricelist, all prices will end in ".90"
+3. For customers associated with this pricelist, all prices will end in ".00"
+
+> Explanation: Option 2 is correct, as rounding method is 1.
+
+
+Question 18: Which of the following is true when you select "Display margin on Quotation and Sales Orders" under Sales Configuration?
+
+1. Changing the cost price on the order line will recompute a new unit price, according to the calculation of the pricelist
+2. The order lines of the quotation will show both the unit price and cost price of the product, as well as the margin, by calculating the difference between the unit price and the cost price
+3. Margins only display on confirmed sales orders, not on quotations
+
+> Explanation: Option 2 is correct.
+
+Question 19: What is the goal of the "Stock Input/Output Account" fields on a product category form?
+
+1. The accounts are used to track the location of each product
+2. These accounts are used tot track changes in inventory valuation in the Accounting app
+3. These accounts are used to track the import (input) and export (output) values of products.
+
+> Explanation: Option 2 is correct.
+
+Question 20: A customer is linked to the pricelist "Retailer". If you create a quote for this customer but change the pricelist to "Consumer". What price will be used for the new sale order line?
+
+1. A price from the Retailer pricelist
+2. A price from the Consumer pricelist
+3. The system will warn you and request you apply the correct pricelist
+
+> Explanation: Option 2 is correct.
+
+Question 21: If the costing method is "Average Cost", will the unit cost of a product change when I deliver some products?
+
+1. Yes
+2. No
+
+> Explanation: Delivery products doesn't change the unit cost of the products. So option 2 is correct.
+
+Question 22: Where do you define the vendor delivery lead time?
+
+1. On the Product Detail (or Template) Form, under the purchase tab, found on each individual Vendor line
+2. On the vendor tab
+3. On the company
+
+> Explanation: In purchase tab of product details. So option 1 is correct.
+
+Question 23: What is the main purpose of setting "Security Lead Time" for purchase?
+
+1. Schedule deliveries later to avoid delays
+2. Schedule receiving earlier to avoid delays
+
+> Explanation: Option 2 is correct.
+
+Question 24: You configure a product to calculate its cost on a "Standard Price" basis, and you currently have units of it in stock (with a cost of $100/Unit). If you were to purchase and receive 2 more units at a price of $10/Unit, what will your new cost be?
+
+1. 100
+2. 90
+3. 82
+
+> Explanation: Option 1 is correct.
+
+Question 25: What will the scheduled purchase order date be if you validate a sales order on October 25th, knowing the product is set to "Buy" with an "MTO" route, with a "Customer Lead Time" set to 10 days, a "Vendor Lead Time" set to 6 Days and "Company Security Lead Time" for purchase set to 2 days.
+
+1. 23 Oct
+2. 27 Oct
+3. 1 Nov
+
+> Explanation: Option 2 is correct.
+
 # 12. Survey
+
 **Question 1: Can you create a survey as a Certificate?**
 
 1. No, the eLearning app must be installed to do this option
