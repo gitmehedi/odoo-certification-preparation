@@ -874,6 +874,168 @@ C. Unreserve picking of 5, star picking 3
 
 # 5. Website & E-Commerce
 
+**Question 1: What happens when a product is added to the cart?**
+
+1. Odoo generates a quotation
+2. Odoo generates an opportunity
+3. Notthing
+4. I don't know
+
+> Explanation: When a product in Cart it automatically creates a quotation against this cart. So option 1 is correct.
+
+**Question 2: On your eCommerce, you can define a promotion program: **
+
+1. Based solely on customers
+2. Based solely on products
+3. Based on customers and/or products
+4. I don't know
+
+> Explanation: User can define discount on Pricelist for products and assign pricelist in customer for a promotion program. So option 3 is correct.
+
+**Question 3: Can you use this block (marked in Blue) in different places on your website ? ***
+
+1. No, you need to design the block again each time
+2. Yes, you can save the block to use it in many palces
+3. Yes, you can send the block to the page you want it in using the send block button
+
+> Explanation: User can create new custom block and save it for later use in other places. So option 2 is correct.
+
+**Question 4: On the user Portal account, which of the below documents is not available?**
+
+1. Quotations, Sale Orders, and Invocies
+2. Manufacturing orders, Work Orders, and Maintenance requests
+3. Project, Tasks, and Timesheet
+
+> Explanation: If user create a portal user then portal user can access quotation, sale order, invoices, project, task and timesheet. So option 2 is correct.
+
+**Question 5: Which of the below statements is FALSE regarding the website design?**
+
+1. Odoo offer 12 font only, and you have to choose from it
+2. You can not add any Google font to the website
+3. You can custom different fonts for the headings & buttons
+4. Fonts are customizable only for the whole theme not the block
+
+> Explanation: Option 2 is correct.
+
+**Question 6: Do you have to create the same building block for each theme?**
+
+1. No, all building block are shared across all themes and website
+2. Yes, each theme has its own Building Block Style
+3. No, Building Blocks could be shared between themes, but it will not be shared for other website, each website must have a new Block
+
+> Explanation: User can create building block for same website but it will not available to other website. And website can use multiple theme. So option 3 is correct.
+
+**Question 7: Can the user navigate between website while browsing?**
+
+1. No, the user must leave the website and select the order website when click on (Go to website)
+2. Yes, with "multi - website" access right
+
+> Explanation: If multi-user permission available for user then user can. So option 2 is correct.
+
+**Question 8: If the recruitment module is installed, how can you publish a new job on the website?**
+
+1. Only by creating the job position first and then publish it on the website
+2. Only from the (+ New) option on the website edit top bar, add (Jobs Offer), and edit its details
+3. Both above answers are correct.
+
+> Explanation: User can create job position from backend with publish and clicking on + button. So option 3 is correct.
+
+**Question 9: Can you allow customers to Schedule an Appointment on the website?**
+
+1. Yes, by installing the (Appointments) App, and select the option (Online Appointment) on the Website setting 
+2. Yes, by installing the (Appointment App), create and publish an Online Appointment, and add the Calendar page on a website menu
+
+> Explanation: Option 2 is correct.
+
+**Question 10: How can you allow the customer to select with whom he wants to schedule the appointment?**
+
+1. By adding the Available Employees on the Appointment Setting and define it as (Chosen by the Customer)
+2. By selecting the opinion (Chosen by the Customer) on the Appointment tab on the Employee form
+
+> Explanation: Option 1 is correct.
+
+**Question 11: How can you publish your products in the website?**
+
+1. All products are automatically published if the Website app is installed
+2. If eCommerce is installed, the product Can be Sold, click Go to Website from the product form, and publish it from toggle checkbox on the header editor
+3. Only if the shop is active, product will be published automatically once created
+4. Direct Publishing from the Product form
+
+> Explanation: Option 2 is correct.
+
+**Question 12: When the customer is visiting a product page, what option you have to choose to show a similar product as the below (Smart Chair)?***
+
+1. Alternative Products (upsell)
+2. Accessory Products (cross-sell)
+3. Optional Products (cross-sell)
+
+> Explanation: option 1 is correct
+
+**Question 13: How can you show the customer other optional product to add to cart while reviewing the order before checkout?**
+
+1. Alternative Products (upsell)
+2. Accessory Products (cross-sell)
+3. Optional Products (cross-sell)
+
+> Explanation: Option 2 is correctt.
+
+**Question 14: Do you have to select the Website on the promotion form in order to apply a promotion Program on the website?**
+
+1. Yes, promotions programs are applied only on the selected website
+2. No, If no website is selected the promotion will be applied also.
+
+> Explanation: If no website selected then it will be global. So option 2 is correct.
+
+**Question 15: Can you customize a particular product page?**
+
+1. Yes, using the website builder
+2. No, all product will have the same design per theme
+
+> Explanation: Option 1 is correct.
+
+**Question 16: How can you show the original and discounted price on the website (ask the modern desk) ***
+
+1. By adding the discount on the product form
+2. By adding the discount on the website pricelist and select its discount policy as (show public price & discount)
+
+> Explanation: Option 2 is correct.
+
+**Question 17: Can the user add a tag to the product shop card ( like this Sale Tag) using the Website Builder?**
+
+1. No, he can choose a Ribbon from he available Ribbons on the product only
+2. Yes, he can choose Ribbon from the available Ribbons or add a new Ribbon
+
+> Explanation: Option 2 is correct.
+
+**Question 18: What is the use of this icon when you create a new post?**
+
+1. It is used to add an emoji to the Post Message text
+2. It is used to tract customer satisfaction on the Message Post
+3. It allows the use to add a mode to the push notification
+
+> Explanation: Option 1 is correct
+
+**Question 19: In your e-commerce can you choose whether or not your prices include tax in the calculation?**
+
+1. Yes
+2. No
+
+> Explanation: Option 1 is correct.
+
+**Question 20: In the shop page, under customize, you can enabale "Filter by Prices". How does it work?**
+
+1. It filters products considering their current pricelists price
+2. It filters products considering their base price
+
+> Explanation: Option 2 is correct
+
+**Question 21: What pric list is used on your online shop for visitors that have not logged in?**
+
+1. The default pricelist "e-commerce" linked to your website
+2. The default pricelist "Public Pricelist"
+3. There is not pricelist for visitors
+
+> Explanation: Option 1 is correct
 
 # 6. Human Resources
 
