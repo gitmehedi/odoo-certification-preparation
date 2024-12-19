@@ -1039,6 +1039,194 @@ C. Unreserve picking of 5, star picking 3
 
 # 6. Human Resources
 
+**Question 1: How would you allocate one leave day (PTO) per month work?**
+
+1. Create a new leave type with allocation mode "Fixed by HR"
+2. Create a new allocation and configuring its 'actual' option
+3. Configuring a work schedule on the employee
+4. It's not possible to do that
+5. I don't know
+
+> Explanation: Option 2 is correct.
+
+**Question 2: When is an expense marked as "Paid"? ***
+
+1. When the employee has paid for the expense butt has not been reimbursed yet
+2. When the employee has paid for the expense and has been reimbursed by the company
+3. As soon as the expense has been approved by the company
+4. I don't know
+
+> Explanation: Option 2 is correct.
+
+**Question 3: Can you determine who is using an Equipment?**
+
+1. Yes, either an employee, department, or both
+2. No, he equipment id defined only which Work Center it is used
+
+> Explanation: Option 1 is correct
+
+**Question 4: Can you restrict a Recruitment stage for a certain Job Positions?**
+
+1. No
+2. Yes, by selecting the Position's on the Job Specific field on the stage
+3. Yes, by selecting the Recruitment Stages on the Job Positions
+
+> Explanation: Option 2 is correct.
+
+**Question 5: How the user can refuse an applicant during the Recruitment process?**
+
+1. By clicking Refuse on the application, and he must add a Refuse Reason
+2. By clicking Refuse on the application, but the Refuse Reason is optional
+
+> Explanation: Option 1 is correct.
+
+**Question 6: How can you add the (Bank Account Number) for the employee? ***
+
+1. By adding the Private Address (Contact) for this employee, and select the bank account added on this address
+2. By adding the Private Address (Contact) for his employee, and select the bank account
+3. By creating a Bank Account in accounting and select it on he employee
+
+> Explanation: Option 1 is correct.
+
+**Question 7: Can you force the employee to enter a PIN code when checking In or OUR the attendance on the Kiosk model?**
+
+1. No, the employee can check in or out without any validation
+2. Yes, by activating the Employee PIN option and define it on the Employee
+
+> Explanation: Option 2 is correct.
+
+**Question 8: Can you add attendance for an employee as Check Out only?**
+
+1. yes, the attendance log could be a Check In or Check Out
+2. No, the attendance log must have a Check IN
+
+> Explanation: Option 2 is correct.
+
+**Question 9: Where are the approval levels configured for the Time Off Request?**
+
+1. On the Time Officer user
+2. On the Time Off Type
+3. On Employee Departments
+
+> Explanation: Option 2 is correct.
+
+**Question 10: Can you allocate a Time Off balance for a group of employees in different department?**
+
+1. No, Time Off allocation are available only for a certain employee or a whole department
+2. Yes, by using Employee Tag, and add this tag on these employees
+
+> Explanation: Option 2 is correct.
+
+**Question 11: When the Expense is reported as Paid By Company, what is the Type of the Journal available to post the expense amount?**
+
+1. Only Journals with (Purchase) Type
+2. Journals with (Cash) or (Bank) Type only
+
+> Explanation: Option 1 is correct.
+
+**Question 12: What does this error mean, and how to fix it when you Post the Expense Report?***
+
+1. The Address is not added on the Employee Private Information, so the user must add an address (Contact) on the employee. This error will appear only if the Expense Report is Paid by Employee
+2. The Bank Account is not added on the Employee Private Information, so the user must add the Bank Account on the employee. This error will appear only id the Expense Report is Paid by Employee
+3. No Expense Journal is available to post the report.
+
+> Explanation: Option 1 is correct.
+
+**Question 13: How can you add Analytic Account to the Pay slip's journal entry?**
+
+1. By adding the Analytic Account to the Employee contract or the Salary Rule accounting settings
+2. By defining the Analytic Account on Employee Department
+3. By defining the Analytic Account on the Pay Slip
+
+> Explanation: Option 1 is correct.
+
+**Question 14: Where do you configure Time Off requests to require multiple approvals?**
+
+1. On the employee form
+2. In the setting of the Time Of app
+3. On the Time Off type form
+
+> Explanation: Option 3 is correct.
+
+**Question 15: Where can you set an employee's work schedule?**
+
+1. On the contract
+2. On the employee form
+3. Both of the answers above
+
+> Explanation: Option 3 is correct.
+
+**Question 16: What will be submitted to your manager for approval when finalizing an expense to be reimbursed**
+
+1. An expense
+2. An expense report
+
+> Explanation: Option 2 is correct.
+
+**Question 17: When configuring a job posting, what does the "Expected New Employees" field do?**
+
+1. Sets a limit and automatically blocks recruitment once it is reached
+2. Sets a minimum, and prevents you from halting recruitment for that position if that number is not reached
+3. None of the above
+
+> Explanation: Option 3 is correct.
+
+**Question 18: How can you have superheroes on you team?**
+
+1. By using the Recruitment App
+2. By using the Online Jobs Module
+3. By using the Referrals App
+
+> Explanation: Option 3 is correct.
+
+**Question 19: How would you set up a mechanism where the amount of time off an employee gets depends on this/her number of days worked?**
+
+1. You create a new Time Off type with the allocation mode set to "Fixed by HR"
+2. You create a new allocation and set it to the "Accrual" option
+3. your create a work schedule for the employee
+
+> Explanation: Option 2 is correct.
+
+**Question 20: As an employee, without any other rights, can you have access to the Time Off description of your colleagues?**
+
+1. Yes
+2. No
+
+> Explanation: Option 2 is correct.
+
+**Question 21: Which app do you need to publish and edit a job description?**
+
+1. Recruitment and websitte
+2. Recruitment and online jobs
+3. Recruitment, website, Payroll, and online jobs
+4. Recruitment
+
+> Explanation: Option 2 is correct.
+
+**Question 22: If you want to reimburse your employees $0.40/km when they use their own car for work related meetings, how would you configure your product?**
+
+1. Configure a new product with a cost price of $0.40 and set "Can be Expensed" to True
+2. Configure a new product with a sales price of $0.04 and set "Can be Expensed" to True
+3. None of the above
+
+> Explanation: Option 1 is correct.
+
+**Question 23: When looking at a job listing, what does the smart button "Trackers" allow you to do?**
+
+1. It allows you to track which medium applicants are using to apply
+2. Access people to whom we sent recruitment latters
+3. Define employees involved in the recruitment process for this position
+
+> Explanation: Option 1 is correct.
+
+**Question 24: Which condition must be met for an expense to be created from an email?**
+
+1. The person submitting the expense needs to have an Odoo user account associated with their email address
+2. There need to be an employee with the sender's email address
+3. None of the above
+
+> Explanation: Option 2 is correct
+
 # 7. Timesheets
 
 # 8. Projects
