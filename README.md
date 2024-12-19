@@ -1229,6 +1229,147 @@ C. Unreserve picking of 5, star picking 3
 
 # 7. Timesheets
 
+**Question 1: Can you timesheet your hours with the timesheet app offline**
+
+1. Yes
+2. No
+3. I don't know
+
+> Explanation: 
+
+**Question 2: What happens when a sale order is validated including a product with the following configuration? ***
+
+1. Task is created in a news project and I can manually set delivered quality to invoice on the sale order
+2. Task is created in a new project and I can invoice the ordered quantity of the sale order at any time
+3. A new project is created and I can manually set delivered quantity to invoice on the sale order
+4. I don't know
+
+> Explanation: 
+
+**Question 3: Can you add a Timesheet without assigning it to a Task?**
+
+1. Yes
+2. No
+
+> Explanation: 
+
+**Question 4: What will happen when you confirm a Sales Order and its line including a product with this configuration? ***
+
+1. Task is created in a new Project, and you can invoice he ordered quantities at any time 
+2. Task is created in an existing Project, and you can invoice only the delivered quantities when it equals the ordered quanitities
+3. Task is created in an existing Project, and you can invoice timesheet (delivered) quantities
+
+> Explanation: 
+
+**Question 5: If you created an invoice for this SO, and the Invoice Policy of the "Service" product is (Based on Timesheets), what will be quantity of the invoice?***
+
+1. Qty will be 12, which is the 12 hours recorded and added to the "Delivered" field on the SO line
+2. Qty will be 100, which is the 100 on the "Quantity" field
+
+> Explanation: 
+
+**Question 6: What happens when a sales order validated, including a product with the following configuration? ***
+
+1. A task is created in a new project, and I can invoice the timesheet (delivered) quantity.
+2. A task is created in a new project, and I can invoice the ordered quantity of the sales order at any time.
+3. A task is created in a new project, and I can invoice the quantity of the sales order only when the delivered quantity equals the ordered quantity
+
+> Explanation: 
+
+**Question 7: What happens when a sales order validated, including a product with the following configuration? ***
+
+1. A task is created in a new project, and I can invoice the timesheet (delivered) quantity.
+2. A task is created in a new project, and I can invoice the ordered quantity of the sales order at any time.
+3. A task is created in a new project, and I can invoice the quantity of the sales order only when the delivered quantity equals the ordered quantity
+
+> Explanation: 
+
+**Question 8: What happens when a sales order validated, including a product with the following configuration? ***
+
+1. A task is created in a new project, and I can invoice the timesheet (delivered) quantity.
+2. A task is created in a new project, and I can invoice the ordered quantity of the sales order at any time.
+3. A task is created in a new project, and I can invoice the quantity of the sales order only when the delivered quantity equals the ordered quantity
+
+> Explanation: 
+
+**Question 9: How are hours billed at a fixed price computed?**
+
+1. These are solid hours coming from a sales order that still need to be timesheeted before being invoiced
+2. These are timesheeted hours linked tot a sales order, where the invoicing policy is set to milestone or prepaid
+3. These are the actual timesheeted hours that can't be invoiced from the sales order
+
+> Explanation: 
+
+**Question 10: When entering the timesheet, how is the timesheet cost generated?**
+
+1. By setting a timesheet cost on the employee form
+2. By setting a timesheet cost on the product form
+3. By setting a timesheet cost on the task form
+
+> Explanation: 
+
+**Question 11: Is it possible to choose some timesheet line from the list and invoice them?**
+
+1. Yes
+2. No
+3. It's no possible. A currency is required for each accountt
+
+> Explanation: 
+
+**Question 11: Look at the screenshots carefully. Why is the delivered field still empty.**
+
+1. Probably because the timesheet needs to be validated
+2. The "Delivered" field is filled when timesheet hours equal the "Ordered" quantity on the sales order.
+3. Only product sets as "Milestone" have the "Delivered" field populated when timesheeting
+
+> Explanation: 
+
+**Question 12: The Timesheet mobile app..**
+
+1. Needs an internet connection
+2. Can be used offline to record timesheets
+
+> Explanation: 
+
+**Question 13: Which statement is True?**
+
+1. All the timesheet of a billable task can only be linked to a single sales order item.
+2. A billable task can contain timesheet that are not billable
+3. The timesheets of a billable task can be linked to a different SO item
+
+> Explanation: 
+
+**Question 14: Which statement is True?**
+
+1. You must invoice all the timesheets without distinction
+2. You can invoice timesheets from a specific period
+
+> Explanation: 
+
+**Question 15: Which statement is False?**
+
+1. Your employee time off automatically generates timesheet entries
+2. Public time off automatically generates timesheet entries
+3. You have to manually encode timesheet for time off
+
+> Explanation: 
+
+**Question 16: What do you the grey timesheets represents?**
+
+1. Timesheet already invoiced
+2. Timesheet not yet validated by the manager
+3. Timesheet validated by the manager
+
+> Explanation: 
+
+**Question 17: Which statement is True?**
+
+1. Sara worked 30 hours overtime according to her contract
+2. Sara is missing 30 hours in her timesheet, according to her contract
+3. Sara worked 30 hours that week, according to her timesheet
+
+> Explanation: 
+> 
 # 8. Projects
 
 # 9. Purchase
