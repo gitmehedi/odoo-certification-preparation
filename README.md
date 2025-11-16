@@ -1574,7 +1574,12 @@ C. Unreserve picking of 5, star picking 3
 2. No
 3. I don't know
 
-> Explanation: User can find Lock Dates in Accounting -> Actions -> Lock Dates, and user can set Tax Return Lock Date in here. So option 1 is correct.
+> **Lock Date:** 
+> Prevents users from posting or modifying journal entries before a specified date
+> Purpose: Lock dates are used to close off accounting periods, preventing accidental or unauthorized changes to past transactions. 
+> Types: 3 types of lock dates are available 1) Journal Entries Lock Date 2) All Users Lock Date 3) Tax Return Lock Date
+
+> Explanation: User can find Lock Dates in **Accounting -> Actions -> Lock Dates**, and user can all types of lock date in here. And upon lock date no journal entry will be posted. So Option 1 is correct.
 
 **Question 2: How is the total due by a customer computed?**
 
@@ -1582,7 +1587,8 @@ C. Unreserve picking of 5, star picking 3
 2. The balance related to this customer in receivable accounts
 3. The sum of invoices minus the sum of payments of this customer
 
-> Explanation: Customer balance may  calculate in different places like invoices, credit notes, and journal entry. So customer balance calculated in receivable account. So option 2 is correct.
+> Explanation: 
+> Customer balance may  calculate in different places like invoices, credit notes, and journal entry. So customer balance calculated in receivable account. So option 2 is correct.
 
 **Question 3: How many journal items will be create for a customer invoice having 2 lines, and the same 15% tax on each line?**
 
